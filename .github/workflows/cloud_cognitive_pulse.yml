@@ -1,0 +1,75 @@
+name: Cortex60 + VeriPulse Serverless Cloud Engine
+
+on:
+  # Runs twice daily at 08:00 AM IST (02:30 UTC) and 08:00 PM IST (14:30 UTC)
+  # Adjust cron expression to '0 */3 * * *' if you want every 3 hours
+  schedule:
+    - cron: "30 2,14 * * *"
+  # Allows triggering a live cloud run anytime with 1 click in the GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      max_items:
+        description: "Number of live verified stories to ingest & push"
+        required: false
+        default: "4"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  verify-and-push-insights:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Unified VeriPulse + Cortex60 Cloud Pipeline
+        env:
+          # AI Fact-Check & Synthesis (Optional - uses built-in heuristic verifier if blank)
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: "gemini-2.5-flash"
+
+          # Telegram Instant Push
+          ENABLE_TELEGRAM: ${{ secrets.ENABLE_TELEGRAM || 'false' }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+          # Email SMTP Digest Push
+          ENABLE_EMAIL: ${{ secrets.ENABLE_EMAIL || 'false' }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST || 'smtp.gmail.com' }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT || '587' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+
+          # WhatsApp Push (Ready when you toggle ENABLE_WHATSAPP=true)
+          ENABLE_WHATSAPP: ${{ secrets.ENABLE_WHATSAPP || 'false' }}
+          WHATSAPP_PROVIDER: ${{ secrets.WHATSAPP_PROVIDER || 'twilio' }}
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_WHATSAPP_FROM: ${{ secrets.TWILIO_WHATSAPP_FROM }}
+          WHATSAPP_TO: ${{ secrets.WHATSAPP_TO }}
+        run: |
+          python -m cortex60.cloud_runner
+
+      - name: Persist Updated Cognitive State & GitHub Pages Web Bundle
+        run: |
+          git config user.name "cortex60-cloud-bot"
+          git config user.email "cortex60-cloud-bot@users.noreply.github.com"
+          git add docs/ cloud_briefing.md cloud_briefing.html cortex60.db || true
+          git diff --staged --quiet || git commit -m "chore(cloud): update verified insights & Cortex60 cognitive bundle [skip ci]"
+          git push
