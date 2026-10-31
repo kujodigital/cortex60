@@ -48,12 +48,12 @@ Cross-verified against 3 external news report(s); no community dispute flags det
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-Trending on Hacker News (703 points, 405 comments).
+Trending on Hacker News (708 points, 406 comments).
 
 📌 *IMPORTANT POINTERS (The Story)*
 • Primary Report: Serbia just elected the world's brainiest parliament published via science.org.
 • Independent Cross-Check: Corroborated by 1 independent coverage feed(s) (Funding the Future).
-• Discussion Velocity: 703 upvotes and 405 community comments on Hacker News.
+• Discussion Velocity: 708 upvotes and 406 community comments on Hacker News.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
 Top community context [HN @vasco]: I used to believe very hard in technocratic governments where experts lead instead of politicians merely consulting with them as most countries do (or pretend to do to give cover to whatever they'd do anyway). Supposedly very technocatric governme
@@ -84,8 +84,8 @@ Cross-verified against 3 external news report(s); no community dispute flags det
 🔗 Primary Article (theguardian.com): https://www.theguardian.com/world/2026/oct/29/finland-criminal-investigation-google-clearing-forest-datacentre
 🔗 Community Verification (r/worldnews): https://www.reddit.com/r/worldnews/comments/1xkbqdz/finland_launches_criminal_investigation_into/
 🔗 Cited Reference (interactive.guim.co.uk): https://interactive.guim.co.uk/uploader/embed/2026/10/finland-datacentresmap/giv-32554vzp3Rk27T9gc/
-🔗 Corroborating (Reuters): https://news.google.com/rss/articles/CBMiywFBVV95cUxQZk1Mbjlqa3B2RFBxMXpXbTcwVjdMYVpwYkhDVmcyWkpKSEpDTDFzZG9QeHVWOERzNDRJYmNwRHFYWUY0dHV6RDRvaEl4QUYxVVZtOTFZNUNqa18zR2ZiVlJ5eTYtQ0hOcEswMGt3TzdCV0tJazJnMzlBZmZuWXdLZUhQRURmbEZfVTJFbUJKdUJGekNIY28zT182eFBlM2FnaWRJN0dRa3JhX0Exbm9xRTV5T1ptMl8tLUVYUFNmWUthLVQ0YVhMaFU1cw?oc=5
 🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMirwFBVV95cUxNTDBiQm9pSW5GajZucXpHandBTm8weFJnWnF5QlFJSnN4LVZsTlJGOHNlV3lybVBNVG1vTDN3MEM3VUlxTk9OR011NW55eG03MkdBNmZ4d1ExUEwxMnpodEVPcG8tV1NzTlZBYjRnSlZGN2pLajBfcUVIQ1dIZXhudjBITV9wbnB2SWoyc1NtWVNnWW1rN0V2Z05SdzJqa2hYbDdCU2czTVBCTmQ2MFdV?oc=5
+🔗 Corroborating (Reuters): https://news.google.com/rss/articles/CBMiywFBVV95cUxQZk1Mbjlqa3B2RFBxMXpXbTcwVjdMYVpwYkhDVmcyWkpKSEpDTDFzZG9QeHVWOERzNDRJYmNwRHFYWUY0dHV6RDRvaEl4QUYxVVZtOTFZNUNqa18zR2ZiVlJ5eTYtQ0hOcEswMGt3TzdCV0tJazJnMzlBZmZuWXdLZUhQRURmbEZfVTJFbUJKdUJGekNIY28zT182eFBlM2FnaWRJN0dRa3JhX0Exbm9xRTV5T1ptMl8tLUVYUFNmWUthLVQ0YVhMaFU1cw?oc=5
 
 ---
 
@@ -97,12 +97,12 @@ Your 60-minute cognitive schedule is ready: 4 × 15-minute blocks combining toda
 
 📌 *IMPORTANT POINTERS (The Story)*
 • 📖 BLOCK 1 (Insight Engine • 15m): Read today's 4 live verified briefing(s) above for 10m, then lock text for 5m Active Recall.
-• 🧩 BLOCK 2 (Logic Crucible • 15m): Daily Fluid-IQ Sequence Challenge → 5  →  10  →  14  →  28  →  32  →  64  →  [ ? ] (Options: 66, 72, 68, 64)
+• 🧩 BLOCK 2 (Logic Crucible • 15m): Daily Fluid-IQ Sequence Challenge → 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] (Options: 67, 59, 61, 55)
 • ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'First Principles Decomposition' (Instead of reasoning by analogy ('copying what others do with slight tweaks'), break a complex system down int...) to today's lead story: "Ukrainian arms manufacturer Fire Point claims to have overcome Starlink restrictions for long-range strikes".
 • 🔁 BLOCK 4 (Integration Loop SRS • 15m): Priority Weak-Concept Recall [History/Geography] → Cross-Disciplinary Synthesis: Using a structural systems lens, how does the 16th-century Portuguese 'cartaz' naval node strategy parallel mo
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Block 2 Answer Key: 68 (Alternating operator recurrence: (×2), then (+4), repeating.) | Remember to log your 3 Daily Biometric Toggles (7–8h Sleep, Cardio, Omega-3/Hydration) to keep 7-day compliance ≥ 70%.
+Block 2 Answer Key: 61 (Alternating operator recurrence: (×2), then (+3), repeating.) | Remember to log your 3 Daily Biometric Toggles (7–8h Sleep, Cardio, Omega-3/Hydration) to keep 7-day compliance ≥ 70%.
 
 📚 *VERIFIED SOURCES*
 🔗 Block 1–4 Interactive Cortex60 Web App: https://github.com
