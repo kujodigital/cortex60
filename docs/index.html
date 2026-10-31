@@ -3,394 +3,240 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cortex60 — 1-Hour Cognitive Enhancement Architecture</title>
+  <title>VeriPulse × Cortex60 — Daily Verified News &amp; 1-Hour Brain Workout</title>
   <link rel="stylesheet" href="./styles.css" />
-  <script type="module">
-    // Feature-detect Popover and native HTML Switch per modern-web-guidance
-    if (!("popover" in HTMLElement.prototype)) {
-      import("https://unpkg.com/@oddbird/popover-polyfill@latest/dist/popover.min.js").catch(() => {});
-    }
-    if (!("switch" in HTMLInputElement.prototype)) {
-      import("https://unpkg.com/input-switch-polyfill@latest/switch.js").catch(() => {});
-    }
-  </script>
 </head>
 <body>
   <div class="app-shell">
-    <!-- Top Master Header & 1-Hour Budget Tracker -->
-    <header class="top-header">
-      <div>
-        <h1 class="brand-title">
-          <span aria-hidden="true">🧠</span>
-          <span>CORTEX-60 // COGNITIVE ENHANCEMENT ENGINE</span>
-        </h1>
-        <p class="brand-sub">
-          4 × 15-Minute Neuro-Targeted Blocks • Crystallized &amp; Fluid Intelligence • SM-2 Spaced Repetition
-        </p>
+
+    <!-- Top Plain-English Welcome Header -->
+    <header class="hero-header">
+      <div class="hero-top">
+        <div>
+          <h1 class="brand-title">📡 VeriPulse × Cortex60</h1>
+          <div style="font-size:0.92rem; color:var(--text-secondary);">
+            Zero-Fluff Verified News (What • How • 3× Why) + Your Daily 1-Hour Brain Workout
+          </div>
+        </div>
+        <span class="cloud-pill">☁️ 100% Cloud-Hosted • No Terminal Needed</span>
       </div>
-      <div class="master-budget-box" aria-label="Daily 1-Hour Learning Budget">
-        <div class="budget-row">
-          <span>⏱️ DAILY 60-MIN BUDGET</span>
-          <span id="master-budget-label">0 / 60 mins (0%)</span>
-        </div>
-        <div class="progress-track">
-          <div id="master-budget-fill" class="progress-fill"></div>
-        </div>
+
+      <div class="how-it-works">
+        <div><strong>1️⃣ Read Live Verified News:</strong> Get zero-fluff facts + 4-layer <em>What, How, Why, Why, Why</em> answers.</div>
+        <div><strong>2️⃣ Tap Any Answer Choice:</strong> Every quiz, logic puzzle, and flashcard reveals the full answer immediately on click.</div>
+        <div><strong>3️⃣ Automatic Cloud Emails:</strong> GitHub Cloud automatically sends new verified briefings to your Gmail twice a day.</div>
       </div>
     </header>
 
-    <!-- Biological Compliance System Banner -->
-    <section id="bio-system-banner" class="bio-banner" role="status" aria-live="polite">
-      <div>
-        <strong id="bio-banner-title">⚠️ Checking Biological Compliance...</strong>
-        <div id="bio-banner-detail" style="font-size: 0.84rem; margin-top: 2px;"></div>
-      </div>
-      <button type="button" class="btn btn-secondary" id="open-bio-toast-btn">
-        Inspect Bio-Diagnostics
-      </button>
-    </section>
-
-    <!-- 4 x 15-Minute Cognitive Block Selector -->
-    <nav class="blocks-nav" aria-label="Four 15-Minute Cognitive Blocks">
-      <button type="button" class="block-tab active" data-block="1" id="tab-block-1">
-        <div class="block-tab-top">
-          <span>BLOCK 01 • 15 MINS</span>
-          <span id="tab-b1-status">⏳ 0/15m</span>
-        </div>
-        <div class="block-tab-title">📖 The Insight Engine</div>
-        <div class="block-tab-target">Crystallized IQ • 6 Domains (10m Read + 5m Recall)</div>
+    <!-- Clear 5-Tab Top Navigation Bar -->
+    <nav class="main-nav" aria-label="Main Sections">
+      <button type="button" class="nav-step-btn active" data-tab="news">
+        <div class="nav-step-num">TAB 1 • LIVE FEED</div>
+        <div class="nav-step-title">📰 Verified News</div>
+        <div class="nav-step-desc">What • How • Why × 3</div>
       </button>
 
-      <button type="button" class="block-tab" data-block="2" id="tab-block-2">
-        <div class="block-tab-top">
-          <span>BLOCK 02 • 15 MINS</span>
-          <span id="tab-b2-status">⏳ 0/15m</span>
-        </div>
-        <div class="block-tab-title">🧩 The Logic Crucible</div>
-        <div class="block-tab-target">Fluid IQ • Matrix, Sequence, Cipher &amp; Spatial</div>
+      <button type="button" class="nav-step-btn" data-tab="block1">
+        <div class="nav-step-num">BLOCK 1 • 15 MINS</div>
+        <div class="nav-step-title">📖 Deep Knowledge</div>
+        <div class="nav-step-desc">6 Core Topics + Quiz</div>
       </button>
 
-      <button type="button" class="block-tab" data-block="3" id="tab-block-3">
-        <div class="block-tab-top">
-          <span>BLOCK 03 • 15 MINS</span>
-          <span id="tab-b3-status">⏳ 0/15m</span>
-        </div>
-        <div class="block-tab-title">⚙️ Mental Model Re-Wiring</div>
-        <div class="block-tab-target">Executive Function • Case Study &amp; Synthesis</div>
+      <button type="button" class="nav-step-btn" data-tab="block2">
+        <div class="nav-step-num">BLOCK 2 • 15 MINS</div>
+        <div class="nav-step-title">🧩 Logic Puzzles</div>
+        <div class="nav-step-desc">Matrix, Numbers &amp; Shapes</div>
       </button>
 
-      <button type="button" class="block-tab" data-block="4" id="tab-block-4">
-        <div class="block-tab-top">
-          <span>BLOCK 04 • 15 MINS</span>
-          <span id="tab-b4-status">⏳ 0/15m</span>
-        </div>
-        <div class="block-tab-title">🔁 The Integration Loop</div>
-        <div class="block-tab-target">Working Memory • Dynamic SM-2 SRS (Weak First)</div>
+      <button type="button" class="nav-step-btn" data-tab="block3">
+        <div class="nav-step-num">BLOCK 3 • 15 MINS</div>
+        <div class="nav-step-title">⚙️ Mental Models</div>
+        <div class="nav-step-desc">Real-World Case Studies</div>
+      </button>
+
+      <button type="button" class="nav-step-btn" data-tab="block4">
+        <div class="nav-step-num">BLOCK 4 • 15 MINS</div>
+        <div class="nav-step-title">🔁 Flashcards &amp; Health</div>
+        <div class="nav-step-desc">Quick Recall + 3 Switches</div>
       </button>
     </nav>
 
-    <main class="workspace-grid">
-      <!-- LEFT COLUMN: Active 15-Minute Block Engine -->
-      <div id="active-block-column">
-        <!-- BLOCK 1: THE INSIGHT ENGINE -->
-        <section id="panel-block-1" class="card">
-          <div class="card-header">
-            <div>
-              <span class="badge">CRYSTALLIZED INTELLIGENCE • 6 DOMAINS</span>
-              <h2 class="card-title" style="margin-top:4px;">Block 1: The Insight Engine (10m Read → 5m Recall)</h2>
-            </div>
-            <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
-              <button type="button" class="btn btn-secondary" id="b1-pull-live-btn" title="Poll Reddit, Medium, BBC &amp; HN via VeriPulse">
-                📡 Pull Live Verified Insights
-              </button>
-              <div class="timer-pill" id="b1-timer-display" title="10m Read + 5m Active Recall">
-                <span aria-hidden="true">⏱️</span>
-                <span id="b1-phase-label">READ PHASE:</span>
-                <span id="b1-time-str">10:00</span>
-              </div>
-              <button type="button" class="btn btn-secondary" id="b1-timer-toggle">Start Timer</button>
-            </div>
-          </div>
-
-          <div class="domain-pills" id="b1-domain-pills" role="tablist" aria-label="6 Knowledge Domains"></div>
-
-          <div id="b1-concept-header" style="margin-bottom:10px;">
-            <h3 id="b1-concept-title" style="margin:0 0 4px 0; font-size:1.1rem;"></h3>
-            <div id="b1-concept-meta" style="font-size:0.8rem; color:var(--text-secondary);"></div>
-          </div>
-
-          <!-- 10-Minute High-Density Multi-Disciplinary Text -->
-          <article id="b1-article-body" class="insight-article"></article>
-
-          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; margin-bottom:14px;">
-            <span id="b1-lock-notice" style="font-size:0.84rem; color:var(--text-secondary);">
-              💡 Complete the 10-minute high-density read, then lock the text to enter the <strong>5-minute Active Recall Constraint</strong>.
-            </span>
-            <button type="button" class="btn" id="b1-enter-recall-btn">
-              🔒 Lock Text &amp; Start 5-Min Active Recall
-            </button>
-          </div>
-
-          <!-- 5-Minute Active Recall Constraint Section -->
-          <div id="b1-recall-section" style="display:none;">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
-              <strong>🧠 5-Minute Active Recall Constraint (Article Text Hidden)</strong>
-              <button type="button" class="btn btn-secondary" id="b1-unlock-read-btn" style="padding:5px 10px; font-size:0.78rem;">
-                👁️ Review Article
-              </button>
-            </div>
-            <div id="b1-questions-container"></div>
-            <button type="button" class="btn" id="b1-submit-recall-btn" style="margin-top:8px;">
-              ✅ Submit Active Recall &amp; Sync to Block 4 SRS
-            </button>
-            <div id="b1-feedback" class="feedback-panel" style="display:none;"></div>
-          </div>
-        </section>
-
-        <!-- BLOCK 2: THE LOGIC CRUCIBLE -->
-        <section id="panel-block-2" class="card" style="display:none;">
-          <div class="card-header">
-            <div>
-              <span class="badge" id="b2-difficulty-badge">FLUID IQ • DYNAMIC DIFFICULTY LEVEL 2/5</span>
-              <h2 class="card-title" style="margin-top:4px;">Block 2: The Logic Crucible (Strict 15:00 Timer)</h2>
-            </div>
-            <div style="display:flex; gap:8px; align-items:center;">
-              <div class="timer-pill">
-                <span aria-hidden="true">⏳</span>
-                <span>CRUCIBLE:</span>
-                <span id="b2-time-str">15:00</span>
-              </div>
-              <button type="button" class="btn btn-secondary" id="b2-timer-toggle">Start 15m</button>
-            </div>
-          </div>
-
-          <!-- Modality Selector: Matrix, Sequence, Cryptogram, Spatial -->
-          <div class="domain-pills" id="b2-modality-pills">
-            <button type="button" class="pill-btn active" data-modality="matrix">1. Matrix Reasoning (3×3)</button>
-            <button type="button" class="pill-btn" data-modality="sequence">2. Sequence Completion</button>
-            <button type="button" class="pill-btn" data-modality="cryptogram">3. Cryptogram Deduction</button>
-            <button type="button" class="pill-btn" data-modality="spatial">4. Spatial Rotation (Chiral)</button>
-          </div>
-
-          <div id="b2-problem-stage" class="question-box">
-            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-              <strong id="b2-problem-type-label">Matrix Reasoning</strong>
-              <span class="badge" id="b2-streak-label">Streak: 0 🔥</span>
-            </div>
-            <p id="b2-problem-prompt" style="white-space:pre-line; font-weight:600; margin:6px 0 12px;"></p>
-            <div id="b2-visual-stimulus"></div>
-            <div id="b2-options-container"></div>
-          </div>
-
-          <div style="display:flex; gap:10px; margin-top:10px;">
-            <button type="button" class="btn" id="b2-next-problem-btn">⚡ Generate Next Scaled Problem</button>
-          </div>
-          <div id="b2-feedback" class="feedback-panel" style="display:none;"></div>
-        </section>
-
-        <!-- BLOCK 3: MENTAL MODEL RE-WIRING -->
-        <section id="panel-block-3" class="card" style="display:none;">
-          <div class="card-header">
-            <div>
-              <span class="badge">EXECUTIVE FUNCTION &amp; CRITICAL THINKING</span>
-              <h2 class="card-title" style="margin-top:4px;">Block 3: Mental Model Re-Wiring (15:00 Window)</h2>
-            </div>
-            <div style="display:flex; gap:8px; align-items:center;">
-              <div class="timer-pill">
-                <span aria-hidden="true">⏱️</span>
-                <span id="b3-time-str">15:00</span>
-              </div>
-              <button type="button" class="btn btn-secondary" id="b3-timer-toggle">Start 15m</button>
-            </div>
-          </div>
-
-          <div class="domain-pills" id="b3-model-pills"></div>
-
-          <div id="b3-framework-box" class="insight-article">
-            <h3 id="b3-model-name" style="margin:0 0 6px 0;"></h3>
-            <p id="b3-model-summary" style="margin:0 0 10px 0;"></p>
-            <div id="b3-model-steps" style="font-size:0.88rem; color:var(--text-secondary);"></div>
-          </div>
-
-          <div class="question-box">
-            <h4 id="b3-case-title" style="margin:0 0 8px 0; color:var(--accent-primary);"></h4>
-            <p id="b3-case-scenario" style="font-size:0.92rem; margin:0 0 14px 0;"></p>
-
-            <div id="b3-fallacy-block" style="margin-bottom:14px;"></div>
-            <div id="b3-application-block" style="margin-bottom:14px;"></div>
-
-            <div style="margin-top:14px;">
-              <label for="b3-synthesis-input" style="display:block; font-weight:700; font-size:0.88rem; margin-bottom:6px;">
-                🌐 Advanced Tier — Cross-Disciplinary Synthesis Challenge:
-              </label>
-              <p id="b3-synthesis-prompt" style="font-size:0.84rem; color:var(--text-secondary); margin:0 0 8px 0;"></p>
-              <textarea
-                id="b3-synthesis-input"
-                rows="3"
-                style="width:100%; border-radius:8px; border:1.5px solid var(--border-color); background:var(--bg-surface); color:var(--text-primary); padding:10px; font-family:inherit;"
-                placeholder="Synthesize the historical precedent with the modern economic consequence using this mental model..."
-              ></textarea>
-            </div>
-
-            <button type="button" class="btn" id="b3-submit-btn" style="margin-top:12px;">
-              ⚙️ Evaluate Case Study &amp; Update Synthesis Tier
-            </button>
-            <div id="b3-feedback" class="feedback-panel" style="display:none;"></div>
-          </div>
-        </section>
-
-        <!-- BLOCK 4: THE INTEGRATION LOOP (SPACED REPETITION) -->
-        <section id="panel-block-4" class="card" style="display:none;">
-          <div class="card-header">
-            <div>
-              <span class="badge">SM-2 SPACED REPETITION • WEAK CONCEPTS PRIORITIZED</span>
-              <h2 class="card-title" style="margin-top:4px;">Block 4: The Integration Loop (15:00 Active Recall)</h2>
-            </div>
-            <div style="display:flex; gap:8px; align-items:center;">
-              <div class="timer-pill">
-                <span aria-hidden="true">🔁</span>
-                <span id="b4-time-str">15:00</span>
-              </div>
-              <button type="button" class="btn btn-secondary" id="b4-timer-toggle">Start 15m</button>
-            </div>
-          </div>
-
-          <p style="font-size:0.86rem; color:var(--text-secondary); margin-top:0;">
-            Questions are dynamically pulled from your historical dataset in <strong>Block 1 (Insight Engine)</strong> and <strong>Block 3 (Mental Models)</strong>. Concepts flagged as weak (missed or low ease factor) are surfaced first.
-          </p>
-
-          <div id="b4-queue-pills" class="domain-pills"></div>
-
-          <div id="b4-active-card" class="question-box">
-            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px;">
-              <div>
-                <span class="badge" id="b4-card-source">BLOCK 1</span>
-                <span class="badge" id="b4-card-tier">Advanced</span>
-                <span class="badge weak" id="b4-card-weak-badge" style="display:none;">🚨 FLAGGED WEAK PRIORITY</span>
-              </div>
-              <span id="b4-card-sm2-meta" style="font-size:0.78rem; color:var(--text-secondary);"></span>
-            </div>
-
-            <p id="b4-card-question" style="font-weight:700; font-size:0.98rem; margin:8px 0 12px;"></p>
-            <div id="b4-card-options"></div>
-          </div>
-
-          <div id="b4-feedback" class="feedback-panel" style="display:none;"></div>
-        </section>
-      </div>
-
-      <!-- RIGHT COLUMN: Section 2 (Benchmarks) & Section 3 (Biometric Compliance) -->
-      <aside>
-        <!-- SECTION 2: BENCHMARKING & METRICS ENGINE -->
-        <section class="card" aria-labelledby="benchmarks-heading">
-          <div class="card-header" style="margin-bottom:12px; padding-bottom:10px;">
-            <h2 class="card-title" id="benchmarks-heading">📊 Benchmarking &amp; Metrics Engine</h2>
-            <span class="badge" id="srs-weak-summary">Weak Queue: 0</span>
-          </div>
-
-          <!-- Foundational Tier -->
-          <div class="tier-card">
-            <div class="tier-header">
-              <span>🏛️ Foundational Tier</span>
-              <span id="tier-found-score">84% • Proficient</span>
-            </div>
-            <div class="tier-sub">Basic retention: World capitals, primary historical dates &amp; elementary logic</div>
-            <div class="progress-track">
-              <div id="tier-found-bar" class="progress-fill" style="width:84%;"></div>
-            </div>
-          </div>
-
-          <!-- Intermediate Tier -->
-          <div class="tier-card">
-            <div class="tier-header">
-              <span>⚡ Intermediate Tier</span>
-              <span id="tier-inter-score">78% • 248 WPM</span>
-            </div>
-            <div class="tier-sub">Comprehension velocity: Complex article WPM &amp; logical fallacy identification</div>
-            <div class="progress-track">
-              <div id="tier-inter-bar" class="progress-fill" style="width:78%;"></div>
-            </div>
-          </div>
-
-          <!-- Advanced Tier -->
-          <div class="tier-card">
-            <div class="tier-header">
-              <span>🌐 Advanced Tier</span>
-              <span id="tier-adv-score">74% • Synthesizing</span>
-            </div>
-            <div class="tier-sub">Cross-disciplinary synthesis: Historical event → Mental model → Modern economy</div>
-            <div class="progress-track">
-              <div id="tier-adv-bar" class="progress-fill" style="width:74%;"></div>
-            </div>
-          </div>
-        </section>
-
-        <!-- SECTION 3: BIOMETRIC & COMPLIANCE TRACKING -->
-        <section class="card" aria-labelledby="biometrics-heading">
-          <div class="card-header" style="margin-bottom:12px; padding-bottom:10px;">
-            <div>
-              <h2 class="card-title" id="biometrics-heading">🧬 Biometric &amp; Neurogenesis Compliance</h2>
-              <div style="font-size:0.78rem; color:var(--text-secondary);">
-                Rolling 7-Day Target: ≥ 70% to prevent biological cognitive bottlenecking
-              </div>
-            </div>
-            <span class="badge" id="bio-compliance-badge">66.7% (14/21)</span>
-          </div>
-
-          <!-- Daily Frictionless Check-In Toggles using native HTML switch attribute -->
-          <div style="margin-bottom:14px;">
-            <div style="font-size:0.8rem; font-weight:700; margin-bottom:8px; color:var(--text-secondary);">
-              TODAY'S BIOLOGICAL PREREQUISITES CHECK-IN:
-            </div>
-
-            <label class="bio-switch-row" for="switch-sleep">
-              <span>🛌 Sleep Quality (7–8 Hours Achieved)</span>
-              <input id="switch-sleep" type="checkbox" switch />
-            </label>
-
-            <label class="bio-switch-row" for="switch-activity">
-              <span>🏃 Physical Activity (Cardio / Exercise Completed)</span>
-              <input id="switch-activity" type="checkbox" switch />
-            </label>
-
-            <label class="bio-switch-row" for="switch-nutrition">
-              <span>🥑 Brain Nutrition (Omega-3 DHA &amp; Hydration)</span>
-              <input id="switch-nutrition" type="checkbox" switch />
-            </label>
-          </div>
-
-          <!-- Rolling 7-Day History Matrix -->
+    <!-- ================================================================== -->
+    <!-- TAB 1: LIVE VERIFIED NEWS (WHAT / HOW / WHY / WHY / WHY)           -->
+    <!-- ================================================================== -->
+    <section id="view-news">
+      <div class="card">
+        <div class="card-header">
           <div>
-            <div style="font-size:0.78rem; font-weight:700; color:var(--text-secondary); margin-bottom:6px;">
-              ROLLING 7-DAY COMPLIANCE LOG (CLICK ANY DAY TO ADJUST):
+            <h2 class="card-title">📰 Today's Live Verified News (Zero Fluff + 3× Why)</h2>
+            <div style="font-size:0.86rem; color:var(--text-secondary);">
+              Pulled from Reddit, Medium, BBC, and Hacker News — with full <strong>What, How, Why #1, Why #2, Why #3</strong> answers.
             </div>
-            <div id="bio-7day-grid" style="display:grid; grid-template-columns:repeat(7, 1fr); gap:6px;"></div>
           </div>
-        </section>
-      </aside>
-    </main>
-  </div>
+          <span class="badge" id="news-count-badge">Live Cloud Feed</span>
+        </div>
 
-  <!-- Toast Notification Stack using popover="manual" per modern-web-guidance `persistent-toast-notifications` -->
-  <div class="toast-stack">
-    <div popover="manual" id="bio-bottleneck-toast" class="toast-popover" role="alert">
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px; margin-bottom:8px;">
-        <strong style="color:var(--accent-danger); font-size:0.95rem;">
-          🚨 SYSTEM NOTIFICATION: BIOLOGICAL BOTTLENECK (&lt;70%)
-        </strong>
-        <button
-          type="button"
-          class="btn btn-secondary"
-          popovertarget="bio-bottleneck-toast"
-          popovertargetaction="hide"
-          style="padding:3px 8px; font-size:0.75rem;"
-        >
-          ✕ Close
-        </button>
+        <div id="live-news-container"></div>
       </div>
-      <p id="toast-bio-body" style="font-size:0.85rem; margin:0 0 8px 0; color:var(--text-secondary);"></p>
-      <ul id="toast-bio-lags" style="margin:0; padding-left:18px; font-size:0.8rem; color:var(--text-primary);"></ul>
-    </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 2: BLOCK 1 — DEEP KNOWLEDGE & RECALL (6 DOMAINS)               -->
+    <!-- ================================================================== -->
+    <section id="view-block1" style="display:none;">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">📖 Block 1: Deep Knowledge &amp; Active Recall (15 Mins)</h2>
+            <div style="font-size:0.86rem; color:var(--text-secondary);">
+              Pick a topic below, read the 3-paragraph summary, and click any answer below to see the full explanation immediately.
+            </div>
+          </div>
+        </div>
+
+        <div class="domain-pills" id="b1-domain-pills"></div>
+
+        <h3 id="b1-concept-title" style="margin:0 0 6px 0; font-size:1.18rem;"></h3>
+        <div id="b1-concept-meta" style="font-size:0.82rem; color:var(--text-muted); margin-bottom:14px;"></div>
+
+        <div id="b1-article-body" style="background:var(--bg-elevated); padding:18px; border-radius:12px; border:1px solid var(--border-color); margin-bottom:20px;"></div>
+
+        <h4 style="margin:0 0 12px 0; font-size:1.05rem;">🧠 Quick Recall Check (Click Any Option to Reveal the Answer):</h4>
+        <div id="b1-questions-container"></div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 3: BLOCK 2 — LOGIC PUZZLES (MATRIX, SEQUENCE, CIPHER, SPATIAL) -->
+    <!-- ================================================================== -->
+    <section id="view-block2" style="display:none;">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">🧩 Block 2: Fluid IQ &amp; Pattern Puzzles (15 Mins)</h2>
+            <div style="font-size:0.86rem; color:var(--text-secondary);">
+              Pick one of the 4 puzzle types below, then click an option (A, B, C, or D) to check your answer and see the rule explanation.
+            </div>
+          </div>
+          <span class="badge" id="b2-difficulty-badge">Level 2 / 5</span>
+        </div>
+
+        <div class="domain-pills" id="b2-modality-pills">
+          <button type="button" class="pill-btn active" data-modality="matrix">1. Visual Matrix (3×3)</button>
+          <button type="button" class="pill-btn" data-modality="sequence">2. Number Sequence</button>
+          <button type="button" class="pill-btn" data-modality="cryptogram">3. Cipher Decode</button>
+          <button type="button" class="pill-btn" data-modality="spatial">4. Shape Rotation</button>
+        </div>
+
+        <div style="background:var(--bg-elevated); border:1.5px solid var(--border-color); border-radius:12px; padding:18px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <strong id="b2-problem-type-label" style="color:var(--accent-primary);">Visual Matrix</strong>
+            <button type="button" class="btn btn-secondary" id="b2-next-problem-btn" style="padding:6px 12px; font-size:0.8rem;">
+              🔄 Next Puzzle →
+            </button>
+          </div>
+
+          <p id="b2-problem-prompt" style="white-space:pre-line; font-weight:700; font-size:1rem; margin:8px 0 14px;"></p>
+          <div id="b2-visual-stimulus"></div>
+          <div id="b2-options-container"></div>
+          <div id="b2-feedback" class="answer-reveal-box" style="display:none;"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 4: BLOCK 3 — MENTAL MODELS (CASE STUDIES + ANSWERS)            -->
+    <!-- ================================================================== -->
+    <section id="view-block3" style="display:none;">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">⚙️ Block 3: Mental Model Frameworks (15 Mins)</h2>
+            <div style="font-size:0.86rem; color:var(--text-secondary);">
+              Learn a critical-thinking framework and click an answer choice on the real-world case study to see the optimal strategy.
+            </div>
+          </div>
+        </div>
+
+        <div class="domain-pills" id="b3-model-pills"></div>
+
+        <div style="background:var(--bg-elevated); border-left:4px solid var(--accent-primary); padding:16px; border-radius:10px; margin-bottom:18px;">
+          <h3 id="b3-model-name" style="margin:0 0 6px 0;"></h3>
+          <p id="b3-model-summary" style="margin:0 0 10px 0;"></p>
+          <div id="b3-model-steps" style="font-size:0.88rem; color:var(--text-secondary);"></div>
+        </div>
+
+        <div style="background:var(--bg-elevated); border:1.5px solid var(--border-color); border-radius:12px; padding:18px;">
+          <h4 id="b3-case-title" style="margin:0 0 8px 0; color:var(--accent-primary); font-size:1.05rem;"></h4>
+          <p id="b3-case-scenario" style="margin:0 0 16px 0;"></p>
+
+          <div id="b3-fallacy-block" style="margin-bottom:20px;"></div>
+          <div id="b3-application-block"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 5: BLOCK 4 — FLASHCARDS & DAILY BIOMETRIC CHECK-IN             -->
+    <!-- ================================================================== -->
+    <section id="view-block4" style="display:none;">
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">🔁 Block 4: Spaced Repetition Flashcards (15 Mins)</h2>
+            <div style="font-size:0.86rem; color:var(--text-secondary);">
+              Click any card pill below, then click an option (or "Show Answer") to see the verified answer immediately.
+            </div>
+          </div>
+        </div>
+
+        <div id="b4-queue-pills" class="domain-pills"></div>
+
+        <div style="background:var(--bg-elevated); border:1.5px solid var(--border-color); border-radius:12px; padding:18px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <span class="badge" id="b4-card-source">FLASHCARD</span>
+            <button type="button" class="btn btn-secondary" id="b4-next-card-btn" style="padding:6px 12px; font-size:0.8rem;">
+              Next Card →
+            </button>
+          </div>
+
+          <p id="b4-card-question" style="font-weight:800; font-size:1.02rem; margin:8px 0 14px;"></p>
+          <div id="b4-card-options"></div>
+          <div id="b4-feedback" class="answer-reveal-box" style="display:none;"></div>
+        </div>
+      </div>
+
+      <!-- Daily Biometric Check-in Card -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">🧬 Daily Brain Health Check-In (3 Switches)</h2>
+            <div style="font-size:0.86rem; color:var(--text-secondary);">
+              Keep your 7-day biological score ≥ 70% so poor sleep or dehydration doesn't bottleneck your focus.
+            </div>
+          </div>
+          <span class="badge" id="bio-compliance-badge">76% Optimal</span>
+        </div>
+
+        <label class="bio-switch-row" for="switch-sleep">
+          <span>🛌 1. Slept 7–8 Hours Last Night</span>
+          <input id="switch-sleep" type="checkbox" switch checked />
+        </label>
+
+        <label class="bio-switch-row" for="switch-activity">
+          <span>🏃 2. Completed Cardio / Exercise Today</span>
+          <input id="switch-activity" type="checkbox" switch checked />
+        </label>
+
+        <label class="bio-switch-row" for="switch-nutrition">
+          <span>🥑 3. Proper Hydration &amp; Brain Nutrition (Omega-3)</span>
+          <input id="switch-nutrition" type="checkbox" switch checked />
+        </label>
+
+        <div id="bio-status-msg" style="margin-top:12px; font-weight:700; font-size:0.9rem;"></div>
+      </div>
+    </section>
+
   </div>
 
   <script type="module" src="./app.js"></script>
