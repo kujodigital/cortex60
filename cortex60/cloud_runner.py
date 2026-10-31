@@ -77,9 +77,9 @@ def build_cognitive_protocol_story(db: CortexDatabase, live_stories: list[Verifi
     ]
 
     return VerifiedStory(
-        item_id=f"cortex60_daily_{datetime.now(timezone.utc).strftime('%Y%m%d')}",
-        category="CORTEX-60 PROTOCOL",
-        headline=f"Daily 1-Hour Cognitive Enhancement Protocol & Answer Key ({model['name']})",
+        item_id=f"kujo_brainiache_daily_{datetime.now(timezone.utc).strftime('%Y%m%d')}",
+        category="KUJO BRAINIACHE PROTOCOL",
+        headline=f"Kujo Brainiache Daily 1-Hour Cognitive Protocol & Answer Key ({model['name']})",
         verification_status=VerificationStatus.VERIFIED_MULTI_SOURCE,
         trust_score=99,
         quick_bite=(
@@ -94,7 +94,7 @@ def build_cognitive_protocol_story(db: CortexDatabase, live_stories: list[Verifi
         ),
         fluff_removed_reason="Structured into 4 × 15-minute neuro-targeted blocks with complete answer keys.",
         sources=[
-            SourceLink(label="Launch Interactive Cortex60 Web App", url="https://kujodigital.github.io/cortex60/"),
+            SourceLink(label="Launch Kujo Brainiache Web App", url="https://kujodigital.github.io/cortex60/"),
             SourceLink(label="GitHub Cloud Automation Dashboard", url="https://github.com/kujodigital/cortex60/actions"),
         ],
     )

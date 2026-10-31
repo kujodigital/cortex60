@@ -1,4 +1,4 @@
-name: Cortex60 + VeriPulse Serverless Cloud Engine
+name: Kujo Brainiache Serverless Cloud Engine
 
 on:
   # Runs twice daily at 08:00 AM IST (02:30 UTC) and 08:00 PM IST (14:30 UTC)

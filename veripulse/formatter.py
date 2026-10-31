@@ -200,7 +200,7 @@ def format_email_html(stories: list[VerifiedStory]) -> str:
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>VeriPulse × Cortex60 Intelligence Brief</title>
+      <title>Kujo Brainiache Intelligence Brief</title>
     </head>
     <body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; background-color:#e2e8f0; padding:24px 12px; margin:0; color:#0f172a;">
       <div style="max-width:680px; margin:0 auto;">
@@ -211,10 +211,10 @@ def format_email_html(stories: list[VerifiedStory]) -> str:
             <tr>
               <td align="left" valign="middle">
                 <div style="font-size:11px; font-weight:800; color:#38bdf8; letter-spacing:1.2px; text-transform:uppercase; margin-bottom:6px;">
-                  📡 VERIPULSE × CORTEX-60 // CLOUD INTELLIGENCE ENGINE
+                  🧠 KUJO BRAINIACHE // CLOUD INTELLIGENCE ENGINE
                 </div>
                 <h1 style="margin:0 0 6px 0; font-size:24px; font-weight:800; color:#ffffff; letter-spacing:-0.4px;">
-                  Real-Time Verified Brief &amp; Deep-Why Interrogation
+                  Kujo Brainiache — Real-Time Verified Brief &amp; Deep-Why Interrogation
                 </h1>
                 <div style="font-size:13px; color:#94a3b8;">
                   Zero fluff • 4-Layer What/How/Why/Why/Why Analysis • Complete Answer Keys • {e(date_str)}
@@ -225,7 +225,7 @@ def format_email_html(stories: list[VerifiedStory]) -> str:
           <div style="margin-top:16px; padding-top:14px; border-top:1px solid #1e293b;">
             <a href="https://kujodigital.github.io/cortex60/" target="_blank" rel="noopener"
                style="display:inline-block; background:#38bdf8; color:#0f172a; font-size:12.5px; font-weight:800; padding:8px 16px; border-radius:8px; text-decoration:none;">
-               🧠 Open Interactive Cortex60 Cognitive App ↗
+               🧠 Open Kujo Brainiache Web App ↗
             </a>
           </div>
         </div>
@@ -235,8 +235,8 @@ def format_email_html(stories: list[VerifiedStory]) -> str:
 
         <!-- Footer -->
         <div style="text-align:center; font-size:12px; color:#475569; padding:12px 0 28px;">
-          Generated autonomously by <strong>VeriPulse × Cortex60 Serverless Cloud Engine</strong> •
-          <a href="https://kujodigital.github.io/cortex60/" style="color:#2563eb; text-decoration:none; font-weight:600;">Web Dashboard</a> •
+          Generated autonomously by <strong>Kujo Brainiache Serverless Cloud Engine</strong> •
+          <a href="https://kujodigital.github.io/cortex60/" style="color:#2563eb; text-decoration:none; font-weight:600;">Kujo Brainiache Web App</a> •
           <a href="https://github.com/kujodigital/cortex60/actions" style="color:#2563eb; text-decoration:none; font-weight:600;">GitHub Cloud Runs</a>
         </div>
       </div>

@@ -27,9 +27,9 @@ class EmailNotifier:
         msg = MIMEMultipart("alternative")
         if len(stories) == 1:
             s = stories[0]
-            msg["Subject"] = f"{s.badge_emoji} [{s.category}] {s.headline} (Trust: {s.trust_score}/100)"
+            msg["Subject"] = f"🧠 Kujo Brainiache: [{s.category}] {s.headline} (Trust: {s.trust_score}/100)"
         else:
-            msg["Subject"] = f"📡 VeriPulse Alert: {len(stories)} High-Signal Verified Updates"
+            msg["Subject"] = f"🧠 Kujo Brainiache: {len(stories)} High-Signal Verified Updates & Daily Workout"
 
         msg["From"] = self.email_from
         msg["To"] = self.email_to
