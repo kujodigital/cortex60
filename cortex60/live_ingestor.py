@@ -107,10 +107,13 @@ def convert_verified_story_to_insight(story: VerifiedStory) -> dict:
     }
 
 
-def ingest_live_verified_stories(db: CortexDatabase, max_items: int = 4, ignore_seen: bool = True) -> tuple[list[VerifiedStory], list[dict]]:
-    """Polls Reddit, Medium, BBC, and Hacker News via VeriPulse and injects verified modules into Cortex60."""
+def ingest_live_verified_stories(db: CortexDatabase, max_items: int = 4, ignore_seen: bool = False) -> tuple[list[VerifiedStory], list[dict]]:
+    """Polls Reddit, Medium, BBC, and Hacker News via VeriPulse, skipping already-sent stories so every run is fresh."""
     vp_engine = VeriPulseEngine()
     stories, _ = vp_engine.run_cycle(ignore_seen=ignore_seen, max_items=max_items)
+    if len(stories) < 2 and not ignore_seen:
+        # Fallback if all top items in this window were already seen
+        stories, _ = vp_engine.run_cycle(ignore_seen=True, max_items=max_items)
     live_modules = [convert_verified_story_to_insight(s) for s in stories]
 
     # Persist into CortexDatabase so Block 1 & Block 4 SRS immediately include these live verified concepts

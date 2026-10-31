@@ -140,7 +140,7 @@ def export_static_cloud_bundle(db: CortexDatabase) -> Path:
 
 def run_cloud_pipeline(max_items: int = 4) -> dict:
     db = CortexDatabase()
-    live_stories, live_modules = ingest_live_verified_stories(db, max_items=max_items, ignore_seen=True)
+    live_stories, live_modules = ingest_live_verified_stories(db, max_items=max_items, ignore_seen=False)
     protocol_card = build_cognitive_protocol_story(db, live_stories)
     all_cards = live_stories + [protocol_card]
 
