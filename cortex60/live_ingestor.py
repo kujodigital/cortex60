@@ -20,6 +20,16 @@ def convert_verified_story_to_insight(story: VerifiedStory) -> dict:
     e = html.escape
     domain = CATEGORY_TO_DOMAIN.get(story.category.upper(), "Science/Tech")
     pointers_html = "".join(f"<li>{e(p)}</li>" for p in story.important_pointers)
+    layers_html = "".join(
+        f"""
+        <div style="margin:8px 0; padding:10px 12px; border-left:3px solid var(--accent-primary); background:var(--bg-surface); border-radius:6px;">
+          <div style="font-size:0.75rem; font-weight:800; color:var(--accent-primary);">{e(l.layer_tag)}</div>
+          <div style="font-weight:700; margin:3px 0;">Q: {e(l.question)}</div>
+          <div style="color:var(--text-secondary);"><strong>A:</strong> {e(l.answer)}</div>
+        </div>
+        """
+        for l in story.interrogation_layers
+    )
     sources_html = "".join(
         f'<li><a href="{e(s.url)}" target="_blank" rel="noopener" style="color:var(--accent-primary);">{e(s.label)}</a></li>'
         for s in story.sources
@@ -32,6 +42,8 @@ def convert_verified_story_to_insight(story: VerifiedStory) -> dict:
         <p><strong>⚡ Zero-Fluff Quick Bite:</strong> {e(story.quick_bite)}</p>
         <p><strong>📌 Verified Story Pointers:</strong></p>
         <ul>{pointers_html}</ul>
+        <p><strong>🔬 4-Layer Deep Interrogation (What • How • Why • Why • Why):</strong></p>
+        {layers_html}
         <p><strong>🔍 Community &amp; Multi-Source Fact-Check:</strong> {e(story.community_verification_notes)}</p>
         <p><strong>📚 Verified Primary &amp; Corroborating Sources:</strong></p>
         <ul>{sources_html}</ul>

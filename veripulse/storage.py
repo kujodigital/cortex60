@@ -3,7 +3,7 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 from veripulse.config import settings
-from veripulse.models import SourceLink, VerificationStatus, VerifiedStory
+from veripulse.models import InterrogationLayer, SourceLink, VerificationStatus, VerifiedStory
 
 
 class StoryStore:
@@ -32,6 +32,7 @@ class StoryStore:
                     trust_score INTEGER,
                     quick_bite TEXT,
                     important_pointers_json TEXT,
+                    interrogation_layers_json TEXT DEFAULT '[]',
                     community_verification_notes TEXT,
                     fluff_removed_reason TEXT,
                     sources_json TEXT,
@@ -39,6 +40,11 @@ class StoryStore:
                 )
                 """
             )
+            # Ensure column exists if table was created earlier
+            try:
+                conn.execute("ALTER TABLE verified_stories ADD COLUMN interrogation_layers_json TEXT DEFAULT '[]'")
+            except sqlite3.OperationalError:
+                pass
             conn.commit()
 
     def is_seen(self, item_id: str, url: str = "") -> bool:
@@ -63,9 +69,9 @@ class StoryStore:
                 """
                 INSERT OR REPLACE INTO verified_stories (
                     item_id, category, headline, verification_status, trust_score,
-                    quick_bite, important_pointers_json, community_verification_notes,
-                    fluff_removed_reason, sources_json, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    quick_bite, important_pointers_json, interrogation_layers_json,
+                    community_verification_notes, fluff_removed_reason, sources_json, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 (
                     story.item_id,
@@ -75,6 +81,16 @@ class StoryStore:
                     story.trust_score,
                     story.quick_bite,
                     json.dumps(story.important_pointers),
+                    json.dumps(
+                        [
+                            {
+                                "layer_tag": l.layer_tag,
+                                "question": l.question,
+                                "answer": l.answer,
+                            }
+                            for l in story.interrogation_layers
+                        ]
+                    ),
                     story.community_verification_notes,
                     story.fluff_removed_reason,
                     json.dumps([{"label": s.label, "url": s.url} for s in story.sources]),
@@ -94,6 +110,7 @@ class StoryStore:
         stories: list[VerifiedStory] = []
         for row in rows:
             raw_sources = json.loads(row["sources_json"] or "[]")
+            raw_layers = json.loads(row["interrogation_layers_json"] or "[]") if "interrogation_layers_json" in row.keys() else []
             stories.append(
                 VerifiedStory(
                     item_id=row["item_id"],
@@ -103,6 +120,14 @@ class StoryStore:
                     trust_score=int(row["trust_score"]),
                     quick_bite=row["quick_bite"],
                     important_pointers=json.loads(row["important_pointers_json"] or "[]"),
+                    interrogation_layers=[
+                        InterrogationLayer(
+                            layer_tag=l["layer_tag"],
+                            question=l["question"],
+                            answer=l["answer"],
+                        )
+                        for l in raw_layers
+                    ],
                     community_verification_notes=row["community_verification_notes"],
                     fluff_removed_reason=row["fluff_removed_reason"] or "",
                     sources=[SourceLink(label=s["label"], url=s["url"]) for s in raw_sources],

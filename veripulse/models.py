@@ -17,6 +17,13 @@ class SourceLink:
 
 
 @dataclass
+class InterrogationLayer:
+    layer_tag: str   # e.g., "LAYER 1 • WHAT & HOW", "LAYER 2 • WHY #1 (IMMEDIATE CAUSE)"
+    question: str    # The explicit How / What / Why question
+    answer: str      # Complete, untruncated verified answer
+
+
+@dataclass
 class RawItem:
     item_id: str
     source_type: str  # "reddit", "medium", "news", "hackernews"
@@ -40,8 +47,9 @@ class VerifiedStory:
     headline: str
     verification_status: VerificationStatus
     trust_score: int  # 0 to 100
-    quick_bite: str  # 1-2 sentence zero-fluff core fact
-    important_pointers: list[str]  # 3-5 hard-fact bullet points
+    quick_bite: str  # Complete 1-2 sentence zero-fluff core fact (never cut mid-word)
+    important_pointers: list[str]  # Complete hard-fact bullet points
+    interrogation_layers: list[InterrogationLayer]  # 4 layers: WHAT & HOW, WHY #1, WHY #2, WHY #3
     community_verification_notes: str  # What Reddit/HN comments or cross-checks revealed
     fluff_removed_reason: str  # What clickbait/fluff was stripped out
     sources: list[SourceLink]

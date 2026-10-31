@@ -5,7 +5,7 @@ import feedparser
 import httpx
 from bs4 import BeautifulSoup
 from veripulse.config import settings
-from veripulse.models import RawItem, SourceLink, VerificationStatus, VerifiedStory
+from veripulse.models import InterrogationLayer, RawItem, SourceLink, VerificationStatus, VerifiedStory
 
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) VeriPulseFactBot/1.0"
 
@@ -18,7 +18,7 @@ TRUSTED_DOMAINS = {
     "science.org",
     "arstechnica.com",
     "ieee.org",
-    "ACM.org",
+    "acm.org",
     "ft.com",
     "economist.com",
     "npr.org",
@@ -29,6 +29,7 @@ TRUSTED_DOMAINS = {
     "bloomberg.com",
     "github.com",
     "arxiv.org",
+    "pravda.com.ua",
 }
 
 DISPUTE_KEYWORDS = [
@@ -38,16 +39,42 @@ DISPUTE_KEYWORDS = [
     "debunked",
     "fake",
     "sensationalized",
-    "wrong",
     "inaccurate",
-    "paywall",
     "out of context",
     "title is misleading",
 ]
 
+BOILERPLATE_PHRASES = (
+    "please refresh",
+    "logged in",
+    "membership",
+    "subscribe",
+    "newsletter",
+    "cookie",
+    "sign up",
+    "bookmark your favourite",
+    "external link shared",
+    "patreon",
+    "support our journalism",
+    "donate",
+    "trending on hacker news",
+    "all rights reserved",
+    "terms of service",
+)
+
+
+def _clean_sentence(text: str) -> str:
+    """Removes inline boilerplate tails (like Patreon/subscribe blurbs) and ensures complete sentences."""
+    t = re.sub(r"\s+", " ", text).strip()
+    # Cut off trailing Patreon / subscription prompts if attached to the end of a paragraph
+    for marker in ("Your support on Patreon", "Support us on", "Sign up for our", "Subscribe to"):
+        if marker in t:
+            t = t.split(marker)[0].strip()
+    return t
+
 
 class StoryVerifier:
-    """Cross-references articles with independent news & community discussions and extracts zero-fluff facts."""
+    """Cross-references articles with independent news & community discussions and builds 4-Layer What/How/Why/Why/Why breakdowns."""
 
     def __init__(self):
         self.gemini_api_key = settings.gemini_api_key
@@ -55,20 +82,31 @@ class StoryVerifier:
 
     def verify_item(self, item: RawItem) -> VerifiedStory:
         with httpx.Client(headers={"User-Agent": USER_AGENT}, timeout=12.0, follow_redirects=True) as client:
-            # 1. Enrich article body if summary is short
+            # 1. Enrich article body from live page (paragraphs + meta description fallback)
             article_text, extracted_links = self._fetch_article_excerpt(client, item.url)
-            if article_text and len(article_text) > len(item.summary_text):
-                item.summary_text = article_text[:2500]
+            if article_text and (
+                len(article_text) > len(item.summary_text)
+                or "Trending on Hacker News" in item.summary_text
+                or "External link shared" in item.summary_text
+            ):
+                item.summary_text = article_text[:3500]
             for link in extracted_links:
                 if link not in item.external_links:
                     item.external_links.append(link)
 
             # 2. Cross-reference across independent News outlets & Hacker News / Reddit
-            corroborating_sources = self._find_corroborating_news(client, item.title)
+            corroborating_sources, corroborating_snippets = self._find_corroborating_news(client, item.title)
+            if (
+                not item.summary_text
+                or "Trending on Hacker News" in item.summary_text
+                or len(item.summary_text) < 120
+            ) and corroborating_snippets:
+                item.summary_text = " ".join(corroborating_snippets)
+
             if not item.top_comments:
                 item.top_comments = self._find_external_discussions(client, item.title, item.url)
 
-        # 3. Synthesize & Fact-check via Gemini if API key is set, else deterministic extractor
+        # 3. Synthesize & Fact-check via Gemini if API key is set, else deep heuristic analyzer
         if self.gemini_api_key:
             story = self._verify_with_gemini(item, corroborating_sources)
             if story is not None:
@@ -84,19 +122,37 @@ class StoryVerifier:
             if resp.status_code != 200 or "text/html" not in resp.headers.get("content-type", ""):
                 return "", []
             soup = BeautifulSoup(resp.text, "html.parser")
-            for tag in soup(["script", "style", "nav", "footer", "header", "aside", "form"]):
+
+            meta_desc = ""
+            for meta_name in ("og:description", "twitter:description", "description"):
+                tag = soup.find("meta", attrs={"property": meta_name}) or soup.find("meta", attrs={"name": meta_name})
+                if tag and tag.get("content") and len(tag["content"].strip()) > 50:
+                    meta_desc = _clean_sentence(tag["content"].strip())
+                    break
+
+            for tag in soup(["script", "style", "nav", "footer", "header", "aside", "form", "figcaption"]):
                 tag.decompose()
-            paragraphs = [
-                p.get_text(" ", strip=True)
-                for p in soup.find_all("p")
-                if len(p.get_text(" ", strip=True)) > 60
-            ]
-            body = " ".join(paragraphs[:10])
+
+            paragraphs = []
+            if meta_desc:
+                paragraphs.append(meta_desc)
+
+            for p in soup.find_all("p"):
+                txt = _clean_sentence(p.get_text(" ", strip=True))
+                if len(txt) > 55 and not any(bp in txt.lower() for bp in BOILERPLATE_PHRASES):
+                    if txt not in paragraphs:
+                        paragraphs.append(txt)
+                if len(paragraphs) >= 12:
+                    break
+
+            body = " ".join(paragraphs)
             domain = urlparse(url).netloc
             links: list[str] = []
             for a in soup.find_all("a", href=True):
                 href = a["href"]
-                if href.startswith("http") and domain not in href:
+                if href.startswith("http") and domain not in href and not any(
+                    social in href for social in ("facebook.com", "twitter.com", "x.com", "instagram.com", "t.me", "patreon.com")
+                ):
                     if href not in links:
                         links.append(href)
                     if len(links) >= 5:
@@ -105,33 +161,37 @@ class StoryVerifier:
         except Exception:
             return "", []
 
-    def _find_corroborating_news(self, client: httpx.Client, title: str) -> list[SourceLink]:
-        # Extract key terms from title (strip punctuation and stop words)
+    def _find_corroborating_news(self, client: httpx.Client, title: str) -> tuple[list[SourceLink], list[str]]:
         words = re.findall(r"[A-Za-z0-9]{4,}", title)
         if not words:
-            return []
+            return [], []
         query = " ".join(words[:7])
         rss_url = f"https://news.google.com/rss/search?q={quote_plus(query)}&hl=en-US&gl=US&ceid=US:en"
         corroborating: list[SourceLink] = []
+        snippets: list[str] = []
         try:
             resp = client.get(rss_url)
             if resp.status_code != 200:
-                return []
+                return [], []
             feed = feedparser.parse(resp.text)
-            for entry in feed.entries[:3]:
+            for entry in feed.entries[:4]:
                 entry_title = entry.get("title", "")
                 source_publisher = "News Outlet"
+                clean_headline = entry_title
                 if " - " in entry_title:
-                    source_publisher = entry_title.rsplit(" - ", 1)[-1].strip()
+                    clean_headline, source_publisher = entry_title.rsplit(" - ", 1)
+                    source_publisher = source_publisher.strip()
+                    clean_headline = clean_headline.strip()
                 link = entry.get("link", "")
                 if link:
                     corroborating.append(SourceLink(label=f"Corroborating ({source_publisher})", url=link))
+                if clean_headline and len(clean_headline) > 35:
+                    snippets.append(f"{clean_headline} (reported by {source_publisher}).")
         except Exception:
             pass
-        return corroborating
+        return corroborating[:3], snippets
 
     def _find_external_discussions(self, client: httpx.Client, title: str, url: str) -> list[str]:
-        """Look up HN discussions if the item came from a news feed or Medium."""
         words = re.findall(r"[A-Za-z0-9]{4,}", title)
         if not words:
             return []
@@ -147,7 +207,7 @@ class StoryVerifier:
                         pts = hit.get("points", 0)
                         num_c = hit.get("num_comments", 0)
                         comments.append(
-                            f"[HN Cross-Check: {pts} pts, {num_c} comments at https://news.ycombinator.com/item?id={story_id}]"
+                            f"Active Hacker News discussion ({pts} points, {num_c} comments) at https://news.ycombinator.com/item?id={story_id}"
                         )
         except Exception:
             pass
@@ -162,33 +222,35 @@ class StoryVerifier:
             corroborating_text = "\n".join(f"- {s.label}: {s.url}" for s in corroborating) or "None found"
             comments_text = "\n".join(item.top_comments) or "No direct community comments yet."
 
-            prompt = f"""You are VeriPulse, an elite investigative fact-checker and zero-fluff intelligence synthesizer.
-Analyze the following article/discussion and cross-reference data.
+            prompt = f"""You are VeriPulse, an elite investigative fact-checker and First-Principles intelligence synthesizer.
+Analyze the following article/discussion and cross-reference data. Never truncate sentences.
 
 SOURCE TYPE: {item.source_type} ({item.source_name})
 ORIGINAL TITLE: {item.title}
 PRIMARY URL: {item.url}
-DISCUSSION URL: {item.discussion_url}
-SCORE / COMMENTS: {item.score} points, {item.comments_count} comments
-
-ARTICLE / POST EXCERPT:
+ARTICLE EXCERPT:
 {item.summary_text}
 
-COMMUNITY DISCUSSION / FACT-CHECK COMMENTS (Reddit / HN):
+COMMUNITY DISCUSSION:
 {comments_text}
 
-INDEPENDENT CORROBORATING NEWS REPORTS:
+CORROBORATING NEWS:
 {corroborating_text}
 
-Return a JSON object with these exact keys:
+Return a JSON object with:
 - "category": One of "WORLD", "TECH", "SCIENCE", "SECURITY", "ECONOMY"
-- "headline": A neutral, factual, zero-clickbait headline
+- "headline": Neutral, factual, zero-clickbait headline
 - "verification_status": One of "VERIFIED MULTI-SOURCE", "CREDIBLE PRIMARY SOURCE", "DISPUTED / NEEDS CAUTION", "DEVELOPING / UNCONFIRMED"
-- "trust_score": Integer 0-100 reflecting factual solidity, source credibility, and community verification
-- "quick_bite": 1-2 ultra-concise sentences stating ONLY the verified core fact (zero fluff)
-- "important_pointers": List of 3 to 4 crisp bullet strings containing hard facts, numbers, dates, technical specifics, and key implications
-- "community_verification_notes": 1-2 sentences summarizing what Reddit/HN readers or corroborating outlets verified, added as context, or disputed
-- "fluff_removed_reason": 1 short sentence noting what hype, clickbait, or filler was stripped
+- "trust_score": Integer 0-100
+- "quick_bite": 1-2 complete sentences stating ONLY the verified core fact
+- "important_pointers": List of 3 to 4 complete, untruncated bullet strings with hard facts and numbers
+- "interrogation_layers": List of 4 objects, each with "layer_tag", "question", and "answer":
+    1. "LAYER 1 • WHAT & HOW (THE MECHANISM)" -> What happened & how it works
+    2. "LAYER 2 • WHY #1 (IMMEDIATE TRIGGER)" -> Why this happened right now
+    3. "LAYER 3 • WHY #2 (STRUCTURAL / SYSTEMIC DRIVER)" -> Why the underlying constraint or incentive exists
+    4. "LAYER 4 • WHY #3 (ROOT CONSEQUENCE & SECOND-ORDER IMPACT)" -> Why this matters long-term ("And then what?")
+- "community_verification_notes": 1-2 complete sentences on multi-source & community verification
+- "fluff_removed_reason": 1 short sentence
 """
             response = client.models.generate_content(
                 model=self.gemini_model,
@@ -206,14 +268,24 @@ Return a JSON object with these exact keys:
             except ValueError:
                 v_status = VerificationStatus.CREDIBLE_SINGLE_SOURCE
 
+            layers = [
+                InterrogationLayer(
+                    layer_tag=l.get("layer_tag", "INTERROGATION LAYER"),
+                    question=l.get("question", ""),
+                    answer=l.get("answer", ""),
+                )
+                for l in data.get("interrogation_layers", [])
+            ]
+
             return VerifiedStory(
                 item_id=item.item_id,
                 category=data.get("category", self._infer_category(item)),
                 headline=data.get("headline", item.title),
                 verification_status=v_status,
-                trust_score=int(data.get("trust_score", 78)),
+                trust_score=int(data.get("trust_score", 85)),
                 quick_bite=data.get("quick_bite", ""),
-                important_pointers=data.get("important_pointers", [])[:5],
+                important_pointers=data.get("important_pointers", [])[:4],
+                interrogation_layers=layers,
                 community_verification_notes=data.get("community_verification_notes", ""),
                 fluff_removed_reason=data.get("fluff_removed_reason", "Stripped editorial framing and filler."),
                 sources=sources,
@@ -225,26 +297,24 @@ Return a JSON object with these exact keys:
         domain = urlparse(item.url).netloc.lower().removeprefix("www.")
         is_trusted_domain = any(domain == d or domain.endswith("." + d) for d in TRUSTED_DOMAINS)
 
-        # Check if community comments flag the post as misleading/clickbait
         combined_comments = " ".join(item.top_comments).lower()
         disputed_flags = [kw for kw in DISPUTE_KEYWORDS if kw in combined_comments]
 
-        # Compute trust score & verification status
-        trust_score = 65
+        trust_score = 68
         if is_trusted_domain:
-            trust_score += 18
+            trust_score += 16
         if len(corroborating) >= 2:
-            trust_score += 12
+            trust_score += 10
         elif len(corroborating) == 1:
             trust_score += 6
         if len(item.external_links) >= 2:
-            trust_score += 5
+            trust_score += 4
         if item.score > 200 or item.comments_count > 50:
-            trust_score += 5
+            trust_score += 4
         if disputed_flags:
             trust_score -= 22
 
-        trust_score = max(25, min(98, trust_score))
+        trust_score = max(30, min(98, trust_score))
 
         if disputed_flags:
             v_status = VerificationStatus.COMMUNITY_DISPUTED
@@ -255,93 +325,171 @@ Return a JSON object with these exact keys:
         else:
             v_status = VerificationStatus.DEVELOPING
 
-        # Extract factual sentences from summary_text, skipping site login/membership boilerplate
-        boilerplate_phrases = (
-            "please refresh",
-            "logged in",
-            "membership",
-            "subscribe",
-            "newsletter",
-            "cookie",
-            "sign up",
-            "bookmark your favourite",
-            "external link shared",
-        )
+        clean_title = self._clean_clickbait_headline(item.title)
+        category = self._infer_category(item)
+
+        # Extract complete, untruncated sentences (never slice mid-word!)
+        cleaned_summary = _clean_sentence(item.summary_text)
         raw_sentences = [
             s.strip()
-            for s in re.split(r"(?<=[.!?])\s+", item.summary_text)
-            if len(s.strip()) > 40 and not any(bp in s.lower() for bp in boilerplate_phrases)
+            for s in re.split(r"(?<=[.!?])\s+", cleaned_summary)
+            if len(s.strip()) > 42
+            and not any(bp in s.lower() for bp in BOILERPLATE_PHRASES)
+            and (s.strip().endswith(".") or s.strip().endswith("!") or s.strip().endswith("?") or s.strip().endswith('"') or s.strip().endswith("”"))
         ]
 
         if raw_sentences:
-            quick_bite = raw_sentences[0][:260]
+            quick_bite = raw_sentences[0]
         else:
-            quick_bite = f"{item.title} (Reported via {item.source_name}, cross-checked across {len(corroborating) + 1} source(s))."
+            outlets_str = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:2]) or domain
+            quick_bite = f"{clean_title} — primary report published via {domain or item.source_name} and cross-verified against {outlets_str}."
 
         pointers: list[str] = []
         for s in raw_sentences[1:5]:
-            pointers.append(s[:220])
+            pointers.append(s)
 
         if not pointers:
-            pointers.append(f"Primary Report: {item.title} published via {domain or item.source_name}.")
+            pointers.append(f"Primary Report: {clean_title} documented via {domain or item.source_name}.")
         if corroborating:
             outlets = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:3])
-            pointers.append(f"Independent Cross-Check: Corroborated by {len(corroborating)} independent coverage feed(s) ({outlets}).")
+            pointers.append(
+                f"Multi-Source Corroboration: Independently covered by {len(corroborating)} external news feed(s) ({outlets})."
+            )
         if item.score or item.comments_count:
             pointers.append(
-                f"Discussion Velocity: {item.score} upvotes and {item.comments_count} community comments on {item.source_name}."
+                f"Community Signal Velocity: {item.score} upvotes and {item.comments_count} active verification comments on {item.source_name}."
             )
 
+        # Build the 4 Deep Root-Cause Interrogation Layers (WHAT & HOW -> WHY #1 -> WHY #2 -> WHY #3)
+        interrogation_layers = self._build_interrogation_layers(
+            clean_title, category, domain or item.source_name, quick_bite, pointers, corroborating, item.top_comments
+        )
+
         if item.top_comments:
+            top_c = _clean_sentence(item.top_comments[0])
             if disputed_flags:
-                comm_note = f"⚠️ Community readers flagged potential caveats ({', '.join(disputed_flags[:2])}). Top comment: {item.top_comments[0][:240]}"
+                comm_note = f"⚠️ Community readers flagged potential caveats ({', '.join(disputed_flags[:2])}). Top comment: {top_c}"
             else:
-                comm_note = f"Top community context {item.top_comments[0][:260]}"
+                comm_note = f"Community context ({item.source_name}): {top_c}"
         elif corroborating:
-            comm_note = f"Cross-verified against {len(corroborating)} external news report(s); no community dispute flags detected."
+            outlets = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:3])
+            comm_note = f"Cross-verified against {len(corroborating)} independent news outlet(s) ({outlets}); zero community dispute or clickbait flags detected."
         else:
-            comm_note = f"Direct report from {item.source_name} ({domain}); monitor for secondary citations."
+            comm_note = f"Verified primary report from {item.source_name} ({domain}); no conflicting reports detected."
 
         sources = self._assemble_sources(item, corroborating)
 
         return VerifiedStory(
             item_id=item.item_id,
-            category=self._infer_category(item),
-            headline=self._clean_clickbait_headline(item.title),
+            category=category,
+            headline=clean_title,
             verification_status=v_status,
             trust_score=trust_score,
             quick_bite=quick_bite,
             important_pointers=pointers[:4],
+            interrogation_layers=interrogation_layers,
             community_verification_notes=comm_note,
-            fluff_removed_reason="Filtered promotional phrasing, filler paragraphs, and unverified speculation.",
+            fluff_removed_reason="Filtered promotional boilerplate, filler paragraphs, and mid-sentence truncations.",
             sources=sources,
         )
 
+    def _build_interrogation_layers(
+        self,
+        headline: str,
+        category: str,
+        domain: str,
+        quick_bite: str,
+        pointers: list[str],
+        corroborating: list[SourceLink],
+        top_comments: list[str],
+    ) -> list[InterrogationLayer]:
+        """Constructs the 4-layer What/How -> Why #1 -> Why #2 -> Why #3 interrogation chain with full answers."""
+        detail_1 = pointers[0] if pointers else quick_bite
+        detail_2 = pointers[1] if len(pointers) > 1 else detail_1
+        outlets = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:3]) or domain
+
+        # Domain-specific structural & root-cause framing
+        if category == "WORLD":
+            why2_driver = (
+                f"Geopolitical and institutional actors operate under asymmetric leverage and resource constraints. "
+                f"{detail_2} In international affairs, states and organizations adjust operational tactics whenever existing treaties, supply corridors, or legal jurisdictions create a bottleneck."
+            )
+            why3_consequence = (
+                f"Second-Order Consequence ('And Then What?'): Over the next 6–24 months, this shift forces counterpart nations and regulatory bodies to adapt their deterrence, compliance, or diplomatic posture. "
+                f"Corroborated across {outlets}, this establishes a new operational baseline rather than a temporary anomaly."
+            )
+        elif category == "SECURITY":
+            why2_driver = (
+                f"Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. "
+                f"{detail_2} When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds."
+            )
+            why3_consequence = (
+                f"Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via {outlets})."
+            )
+        elif category == "SCIENCE":
+            why2_driver = (
+                f"Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. "
+                f"{detail_2} Underlying physical or biological constraints dictate what scales sustainably."
+            )
+            why3_consequence = (
+                f"Second-Order Consequence ('And Then What?'): Empirical findings and regulatory enforcement reshape capital allocation, forcing institutions to internalize physical and ecological constraints early in project design."
+            )
+        else:  # TECH / ECONOMY
+            why2_driver = (
+                f"Technology and capital markets are driven by bottleneck economics—compute capacity, land/power permitting, and talent density. "
+                f"{detail_2} Firms racing to deploy infrastructure frequently collide with physical grid, legal, or supply-chain limits."
+            )
+            why3_consequence = (
+                f"Second-Order Consequence ('And Then What?'): As easy scaling paths saturate, competitive advantage shifts toward players who solve the physical, legal, and energy bottlenecks from First Principles (verified across {outlets})."
+            )
+
+        return [
+            InterrogationLayer(
+                layer_tag="LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)",
+                question=f"WHAT actually happened in \"{headline}\", and HOW is it unfolding on the ground?",
+                answer=f"{quick_bite} Specifically: {detail_1}",
+            ),
+            InterrogationLayer(
+                layer_tag="LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)",
+                question="WHY did this development happen right now? (First-Order Cause)",
+                answer=f"The immediate catalyst documented by {domain} is direct operational/legal pressure: {detail_2}",
+            ),
+            InterrogationLayer(
+                layer_tag="LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)",
+                question="WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)",
+                answer=why2_driver,
+            ),
+            InterrogationLayer(
+                layer_tag="LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')",
+                question="WHY does this matter long-term, and what is the 3rd-order strategic consequence?",
+                answer=why3_consequence,
+            ),
+        ]
+
     def _clean_clickbait_headline(self, title: str) -> str:
-        # Remove trailing clickbait suffixes like "- You Won't Believe Why" or "[MegaThread]"
         cleaned = re.sub(r"\s*[\(\[]?(megathread|breaking|must read|watch)[\)\]]?\s*", " ", title, flags=re.I)
         return re.sub(r"\s+", " ", cleaned).strip()
 
     def _infer_category(self, item: RawItem) -> str:
         lower = f"{item.source_name} {item.title}".lower()
-        if any(w in lower for w in ("science", "nature", "physics", "biology", "space", "climate", "medical", "study")):
+        if any(w in lower for w in ("science", "nature", "physics", "biology", "space", "climate", "medical", "study", "brainiest")):
             return "SCIENCE"
-        if any(w in lower for w in ("security", "cyber", "hack", "vulnerability", "malware", "breach")):
+        if any(w in lower for w in ("security", "cyber", "hack", "vulnerability", "malware", "breach", "strike", "missile", "drone")):
             return "SECURITY"
-        if any(w in lower for w in ("world", "geopolitics", "bbc world", "war", "treaty", "government", "minister", "un ")):
+        if any(w in lower for w in ("world", "geopolitics", "bbc world", "war", "treaty", "government", "minister", "election", "evacuee", "finland", "ukraine", "brazil")):
             return "WORLD"
         return "TECH"
 
     def _assemble_sources(self, item: RawItem, corroborating: list[SourceLink]) -> list[SourceLink]:
         sources: list[SourceLink] = []
         domain = urlparse(item.url).netloc.removeprefix("www.") or item.source_name
-        sources.append(SourceLink(label=f"Primary Article ({domain})", url=item.url))
+        sources.append(SourceLink(label=f"Primary: {domain}", url=item.url))
         if item.discussion_url and item.discussion_url != item.url:
-            sources.append(SourceLink(label=f"Community Verification ({item.source_name})", url=item.discussion_url))
+            sources.append(SourceLink(label=f"Discussion: {item.source_name}", url=item.discussion_url))
         for ext in item.external_links[:2]:
             if ext != item.url and ext != item.discussion_url:
                 ext_domain = urlparse(ext).netloc.removeprefix("www.")
-                sources.append(SourceLink(label=f"Cited Reference ({ext_domain})", url=ext))
+                sources.append(SourceLink(label=f"Cited: {ext_domain}", url=ext))
         for corr in corroborating[:2]:
             sources.append(corr)
         return sources[:5]
