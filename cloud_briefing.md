@@ -1,93 +1,91 @@
-✅ *[WORLD] Flavio Bolsonaro ‘leaves Brazil for US with family days after losing election’*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 77/100
-
-⚡ *QUICK BITE (Zero Fluff)*
-Please refresh the page or navigate to another page on the site to be automatically logged in Please refresh your browser to be logged in Want to bookmark your favourite articles and stories to read or reference later?
-
-📌 *IMPORTANT POINTERS (The Story)*
-• Start your Independent Membership today.
-• ⁠ Flavio Bolsonaro has left the ⁠country ​for ⁠the ⁠ United States ​just days after ⁠ his election defeat , a source close to the Brazilian Senator has said.
-• A source told Reuters that Bolsonaro had left Brazil with his wife and two daughters, just hours after police in Brazil said they had cancelled his passports.
-• Police said that Bolsonaro had failed to comply with an order to surrender his passports within 24 hours as part of a probe into alleged money laundering, which he denies.
-
-🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 external news report(s); no community dispute flags detected.
-
-📚 *VERIFIED SOURCES*
-🔗 Primary Article (independent.co.uk): https://www.independent.co.uk/news/world/americas/flavio-bolsonaro-leaves-brazil-usa-elections-b3074395.html
-🔗 Community Verification (r/worldnews): https://www.reddit.com/r/worldnews/comments/1xgz6j0/flavio_bolsonaro_leaves_brazil_for_us_with_family/
-🔗 Corroborating (The Independent): https://news.google.com/rss/articles/CBMirAFBVV95cUxONE9EamdkY09hUnYwZEg0SWE5LWpPTUVHREJQVHo4em9NblloeUlfT1dEMEVtQkFWTDA2UmxxSlJRSzYtVWJkNTBZY3hIV0dSVVJEQlVFOERYY19ubVJ1Tzg1dnNaQ3ZIMnVhZ3U3eG1hdGpIWERrODQ3RWh2QnY3TVlvaVlqY2cyWEpTQzFua1A2Q0l1bXUxUi1YcFhTWVRzSllqb1cxS1dtaDhK?oc=5
-🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMijAFBVV95cUxOc1d5Y2x0MGFEQmNfNDJsaGNsX2ZYN0RJZVIwY2JDSWozeXk2ZXdMV0xwM0pMcnZZOU5OY1BNRzZ0R1J0eGNoUld4T0tKMXp6WV9qak9XTVhQZG1sUndMQUZfS0RXbUpKSTRtb0FWQVBNR09hT2FHWEFkcFV5dFFrMTlHRUt5MDJMbmNiRA?oc=5
-
----
-
-✅ *[WORLD] Norway and Finland leaders hold rare call with Putin*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 95/100
-
-⚡ *QUICK BITE (Zero Fluff)*
-Norway and Finland say they are not acting on behalf of other European leaders The leaders of Finland and Norway have held a joint call with Vladimir Putin - rare contact between the Russian president and European leaders.
-
-📌 *IMPORTANT POINTERS (The Story)*
-• Finland's President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre said the aim of the call had been to "convey messages directly regarding future negotiations" towards peace.
-• An end to the conflict in Ukraine "will not be achieved through silence," Stubb said.
-• Neither side suggested the needle had been moved on ending the war, which began when Russia launched its full-scale invasion of Ukraine in 2022.
-• Although the Finnish leader said the conversation with Putin had been "frank and substantive," Støre added that there were "big differences in views" with Putin.
-
-🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 external news report(s); no community dispute flags detected.
-
-📚 *VERIFIED SOURCES*
-🔗 Primary Article (bbc.co.uk): https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss
-🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuWm1OYWtDeFFLZ0JBTzN0bUdYWGVpUnc1aDBjTVZTSDIyTDJ3bzFPelE5X2ttdVlrYXpSQ3ZPQTU3OUt1WnU1Z004MElQR2lId0RQUXlTbXVnSkk?oc=5
-🔗 Corroborating (NBC News): https://news.google.com/rss/articles/CBMiugFBVV95cUxQTkpjRkpUckNoc29oLTZzazR1NFFyMC0xWGxMRTh4NE5FY0E5VllieE1XNC1PNHhSNUo0VUVmOUNCSG42ZlRZejNCbUdyVTFoZlBsOWwwR1I0bGM0emRBVGZBcUlPRDI2QTQtTngxSG9nLTV1NHVRT0VabHo0ZTBJOHVITVlzZ1gxRXAxekVtZVRjWmhZR2VPVW9YWW9NOHVvTjN3UDRwSGlwbktmcDdwZVc5OTFPOTduZmc?oc=5
-
----
-
-✅ *[SECURITY] US Government is hiding a secret court ruling about how it spies on Americans*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 87/100
-
-⚡ *QUICK BITE (Zero Fluff)*
-Two Democratic senators who have long overseen US intelligence say the Trump administration is illegally withholding a secret court’s findings from Congress until lawmakers renew a program that lets federal agents read Americans’ communications without a warra
-
-📌 *IMPORTANT POINTERS (The Story)*
-• Seven months ago, the Foreign Intelligence Surveillance Court objected to search filters that let intelligence analysts pull Americans’ messages from intercepted data without the approvals, written justifications, or rec
-• The court approved another year of surveillance anyway.
-• The ruling has never been made public, and Senators Ron Wyden of Oregon and Adam Schiff of California say the administration’s own deadline for releasing it passed in September.
-• The program, Section 702 of the Foreign Intelligence Surveillance Act (FISA), lapsed in June after Congress failed to renew it, though collection continues under the court’s March approval.
-
-🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Top community context [HN @TheCoelacanth]: Secret courts are anathema to democracy and need to be abolished.
-
-📚 *VERIFIED SOURCES*
-🔗 Primary Article (wired.com): https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/
-🔗 Community Verification (Hacker News): https://news.ycombinator.com/item?id=50259604
-🔗 Cited Reference (intelligence.gov): https://www.intelligence.gov/assets/documents/702-documents/702_Post_RISAA-FINAL.pdf
-🔗 Corroborating (WIRED): https://news.google.com/rss/articles/CBMirwFBVV95cUxOX0p3ZUZtRmRWa3JNVmhqTVRWT3ZSbDUwdkstcFVONFFLV3dEY2VMbmozaDNCY0lGVFhfYmpWYnR2aTd1dW81V1NTcW5EYm94MWd4Q3BaVm1OVzI1Q0F4bjdBeGpTMWR0STZNVFhRMjVKcEZSbDl5ZFdXOUE2ZUZLM3FGamFfZXBMV1V2Z1RsY2ZhbXhFNmllbzNzUmhIRkRQR2xzclJ6ekVYZ1NFZHpB?oc=5
-🔗 Corroborating (Yahoo): https://news.google.com/rss/articles/CBMinAFBVV95cUxNNjNQRWxWTlY5YS1zY19CaFFPOTFIejlGbU9EM1NaUzhVU18xNV9sWjhHc1c5SmZSOWhMSzNCWk5HbFkzZk9tTEVHQ3pEU3h6cHQwd1pFOVFyelRtZEdOSDVFQnlyc2lQczlzS2dzYWVkXzUwbzc2Z3RWd1pnU3JPLWF1ZzJUVE1zMUhyeFkxNTV2UXBLamJMZTRac2c?oc=5
-
----
-
-✅ *[WORLD] Flavio Bolsonaro Reportedly Flees Brazil After Passport Revocation*
+✅ *[WORLD] Ukrainian arms manufacturer Fire Point claims to have overcome Starlink restrictions for long-range strikes*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 82/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-Flavio Bolsonaro, a Brazilian senator and former presidential candidate, has reportedly left Brazil for the United States, according to reports published by international media outlets.
+Iryna Terekh, CEO of Ukrainian missile and drone manufacturer Fire Point, says the company has found a way of delivering long-range strikes in Russia and Russian-occupied territories without relying on Starlink satellite communications.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• The news emerged Tuesday, one day after the conservative politician claimed that Brazilian authorities had ordered him to surrender both his regular and diplomatic passports and barred him from leaving the country.
-• So far, the circumstances surrounding his alleged departure have not been conclusively established.
-• The case has raised questions about the senator’s whereabouts and the scope of the judicial restrictions he said had been imposed on him.
-• The controversy also involves his brother, Eduardo Bolsonaro, who lives in the United States and had suggested that Flavio leave Brazil if he lost the presidential election.
+• Details: Terekh said the company has found workarounds that allow it to conduct strikes without using satellite communications.
+• Fire Point systems are designed to finish a ⁠mission without a satellite link.
+• Navigation that works without any external signal is a priority." Details: Terekh declined to disclose details of the solutions.
+• Quote: "We found a way to technologically overcome this challenge, ​but this only covers probably 15 to 20% of what we could do if the Starlink was working (over Russia)." Your support on Patreon helps us keep the news f
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
 Cross-verified against 3 external news report(s); no community dispute flags detected.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary Article (colombiaone.com): https://colombiaone.com/2026/10/27/flavio-bolsonaro-reportedly-flees-brazil-after-passport-revocation/
-🔗 Community Verification (r/worldnews): https://www.reddit.com/r/worldnews/comments/1xgscb5/flavio_bolsonaro_reportedly_flees_brazil_after/
-🔗 Cited Reference (web.facebook.com): https://web.facebook.com/colombiaone
-🔗 Corroborating (Courthouse News): https://news.google.com/rss/articles/CBMimwFBVV95cUxOLXRncHJRbUY2dmU1NDgzaXlaVmhzX081YjAyaFNEbWYtWWlRT08tZG1OX3l4WWcxazZkR1g5SUZZQmNlRlR2U29UcDE5NzdSeXRPRGkxU01pUG96b3VOdUM5bVdYVHowRElHUWVyM0ZrNjBwb2s3N1FrNVc4eFFOZnBRY2lKQmpPUFBsc0NpeXFFdmVxNTdhN1ZROA?oc=5
-🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMijAFBVV95cUxOc1d5Y2x0MGFEQmNfNDJsaGNsX2ZYN0RJZVIwY2JDSWozeXk2ZXdMV0xwM0pMcnZZOU5OY1BNRzZ0R1J0eGNoUld4T0tKMXp6WV9qak9XTVhQZG1sUndMQUZfS0RXbUpKSTRtb0FWQVBNR09hT2FHWEFkcFV5dFFrMTlHRUt5MDJMbmNiRA?oc=5
+🔗 Primary Article (pravda.com.ua): https://www.pravda.com.ua/eng/news/2026/10/30/8060568/
+🔗 Community Verification (r/worldnews): https://www.reddit.com/r/worldnews/comments/1xkav5t/ukrainian_arms_manufacturer_fire_point_claims_to/
+🔗 Cited Reference (reuters.com): https://www.reuters.com/business/aerospace-defense/ukrainian-arms-maker-fire-point-says-its-systems-can-complete-missions-without-2026-10-30/
+🔗 Corroborating (Reuters): https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcXRwTDRUaUQ3RG4yekIyZm1pRFFRVVBLcGZlMHdSVkFuR1Z5TURmcEdBZXJjUEZ0WVNaVEV6WW9zdmN6Qzl4bnVtQXJ3eEVZYkpPSHd1cUtRSVFqd25fMlRiTFNIUjl6Ynh4N0pDNjNlb0paTHEyWHZJOE9hM3J5R281dUxaWi1RcVk0NXBwcEpnRGlDQ1lscGtobGVhMkd3R25yMk5nWkloUm9CUEItaklUQmdla2ZWOUFlaXdrc0haenotVko4Q1NpWmVzVHBlamR6YXNtTTI?oc=5
+🔗 Corroborating (Українська правда): https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVblJHX0lTYW9XT25NR1lsT0o1Q09WZGtNak0wYi1rVDJWTXFGajdrX0VOTnhNWHhEQUdRaHZkMHgwQnZZUWlhQ3pjMVZ0cnBKak1NRmxESEx6WXdMSTgzT25XOEvSAXBBVV95cUxPR01zTEJZVFdXLVVXRWd0VS0tV1lCT1NwMGVvckw3bWZHd0dOaXQyV0lxYjVlTnJyOG1PUFJqWFFCQmJ6UTdPR3Bvd3RZTzFOeWJlRXA1WWtOZGU4b2ZXMzM1RUg0XzhBaTljUFlEanhj?oc=5
+
+---
+
+✅ *[WORLD] Ukrainian evacuees reunite with family after years trapped in Russia-occupied city*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 95/100
+
+⚡ *QUICK BITE (Zero Fluff)*
+There were raw emotional scenes as people evacuated from the devastated Russian-occupied city of Oleshky crossed from Belarus into the Ukrainian region of Chernihiv.
+
+📌 *IMPORTANT POINTERS (The Story)*
+• Families cried as they reunited with relatives they had not seen for years, with two sisters running and crying out as they embraced their father.
+• Some elderly residents were so weak they were carried on stretchers.
+• They had been trapped in the frontline city without food, water and electricity, with many resorting to cooking garden weeds to survive.
+• Ukrainian President Volodymyr Zelensky thanked US First Lady Melania Trump for her efforts in brokering a local ceasefire that paved the way for their evacuation on Friday.
+
+🔍 *COMMUNITY & FACT-CHECK CONTEXT*
+Cross-verified against 3 external news report(s); no community dispute flags detected.
+
+📚 *VERIFIED SOURCES*
+🔗 Primary Article (bbc.co.uk): https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss
+🔗 Corroborating (Anchorage Daily News): https://news.google.com/rss/articles/CBMiygFBVV95cUxQbHdudnFTVzlocWFPbmdBWWtDeEF1d0xjZkNSRUpZeVNwQmhyRGRlWUYzc2FDX1FUNEVLaGFlT1F0S2lHS041U1FJT3NrcEhjRFUzMksySW5iNnRLeWRiN1ZpMDA5ZDNjaEJZN3JXM2lDM0Z0dWk0U3hxY3kxZGNaY292a3FkM245SW9TbmNIbU9GYVh2TlV0Vk9XczdiZDI1MHJGaDhRYjRtSWpRTXh1Rlpaal9iM3VzelMtM21yRU10YXg3dFh6TUVB?oc=5
+🔗 Corroborating (Radio Free Europe/Radio Liberty): https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWFRCUmJFaTFlVUY5QTRJOVBPZVNuVjlhQVhtbnJpM3VjcW9sXzhzTlNUUjVYSWMxT1pTSVZLS0M3YWtpdTZtbEhLZUxoQ3FyYUQ4WmdITnU2RjIxVU1SOHVUR204SjRGYlg3SllOU0JfZlY4Z1J5Z1BTTF9EaUVtSkt6c3FwcXVDMFRtdWFvWUczekNucDhQMFpWREo2U1hsSTAyQS01a2FnX25iZUtld3NUcHozTkJjYkhaV2RWXzIzZ9IBxAFBVV95cUxQUnpJMDNFWXY3UjMyUHhEa1RXOHdWS0xZUEctVHlINEdobXd1elZEekRNdzdrZTZBemxkaTBXUl93eTVLOEpsengybWR4Y0tTRzNFTkNxSVpxZG1yc2VLLS1jTVBWa25WckZHMVRnT0ZRVjVnY0ZfaWh6V0RvSEhrT2I5NmVJYlp2bXpjQTkwMWFGZ013UC0yQUtTUkc0MURyZHdXLTdaaE5CVWpaNzlUd3FoaFhkMjZRWDJXWjRQWk13ZV9h?oc=5
+
+---
+
+✅ *[SECURITY] Serbia just elected the world's brainiest parliament*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
+
+⚡ *QUICK BITE (Zero Fluff)*
+Trending on Hacker News (703 points, 405 comments).
+
+📌 *IMPORTANT POINTERS (The Story)*
+• Primary Report: Serbia just elected the world's brainiest parliament published via science.org.
+• Independent Cross-Check: Corroborated by 1 independent coverage feed(s) (Funding the Future).
+• Discussion Velocity: 703 upvotes and 405 community comments on Hacker News.
+
+🔍 *COMMUNITY & FACT-CHECK CONTEXT*
+Top community context [HN @vasco]: I used to believe very hard in technocratic governments where experts lead instead of politicians merely consulting with them as most countries do (or pretend to do to give cover to whatever they'd do anyway). Supposedly very technocatric governme
+
+📚 *VERIFIED SOURCES*
+🔗 Primary Article (science.org): https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament
+🔗 Community Verification (Hacker News): https://news.ycombinator.com/item?id=50314654
+🔗 Corroborating (Funding the Future): https://news.google.com/rss/articles/CBMikgFBVV95cUxPcF9mZWJDRy1tb1Q3THhod04zcmxCZWNPSDBlZElpS3BhbjB0WXoyd280WG9YdTNGVjhmWFN4OWpNODZiTmNrWEJJV1d4RFkwV0dyZ2VrMHlxX3pPVm4ybVNVR2tmU0Z0NlFNQnJSVjZ4VjlLQTR2NFZRVUNMNC0xeUVDQzVhZEd1MVR5QzNKSUxSUQ?oc=5
+
+---
+
+✅ *[WORLD] Finland launches criminal investigation into Google’s clearing of forest for datacentre site*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 98/100
+
+⚡ *QUICK BITE (Zero Fluff)*
+Authorities allege company may have breached Finnish environmental laws by forgoing required impact assessment ‘Pure arrogance’: anger in Finland as Google illegally fells 250,000 trees for datacentre Finnish ⁠police have launched a criminal investigation into
+
+📌 *IMPORTANT POINTERS (The Story)*
+• Authorities allege that Tuike Finland, a Google subsidiary, cleared and drained 330 hectares (815 acres) of forest at the planned site in Muhos before environmental impact assessments required by Finnish law had been com
+• Like other Nordic countries, Finland is attractive to tech companies seeking to build datacentres because of its relative geopolitical stability and abundance of land, but also because its cool climate should allow them 
+• “Based on preliminary information, there have been ambiguities and ‌shortcomings in the drainage and water management at the construction site of Tuike Finland ​Oy’s datacentre project,” Finnish police said in a statemen
+• “The criminal investigation will examine, among other things, circumstances related to these issues,” they added.
+
+🔍 *COMMUNITY & FACT-CHECK CONTEXT*
+Cross-verified against 3 external news report(s); no community dispute flags detected.
+
+📚 *VERIFIED SOURCES*
+🔗 Primary Article (theguardian.com): https://www.theguardian.com/world/2026/oct/29/finland-criminal-investigation-google-clearing-forest-datacentre
+🔗 Community Verification (r/worldnews): https://www.reddit.com/r/worldnews/comments/1xkbqdz/finland_launches_criminal_investigation_into/
+🔗 Cited Reference (interactive.guim.co.uk): https://interactive.guim.co.uk/uploader/embed/2026/10/finland-datacentresmap/giv-32554vzp3Rk27T9gc/
+🔗 Corroborating (Reuters): https://news.google.com/rss/articles/CBMiywFBVV95cUxQZk1Mbjlqa3B2RFBxMXpXbTcwVjdMYVpwYkhDVmcyWkpKSEpDTDFzZG9QeHVWOERzNDRJYmNwRHFYWUY0dHV6RDRvaEl4QUYxVVZtOTFZNUNqa18zR2ZiVlJ5eTYtQ0hOcEswMGt3TzdCV0tJazJnMzlBZmZuWXdLZUhQRURmbEZfVTJFbUJKdUJGekNIY28zT182eFBlM2FnaWRJN0dRa3JhX0Exbm9xRTV5T1ptMl8tLUVYUFNmWUthLVQ0YVhMaFU1cw?oc=5
+🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMirwFBVV95cUxNTDBiQm9pSW5GajZucXpHandBTm8weFJnWnF5QlFJSnN4LVZsTlJGOHNlV3lybVBNVG1vTDN3MEM3VUlxTk9OR011NW55eG03MkdBNmZ4d1ExUEwxMnpodEVPcG8tV1NzTlZBYjRnSlZGN2pLajBfcUVIQ1dIZXhudjBITV9wbnB2SWoyc1NtWVNnWW1rN0V2Z05SdzJqa2hYbDdCU2czTVBCTmQ2MFdV?oc=5
 
 ---
 
@@ -99,12 +97,12 @@ Your 60-minute cognitive schedule is ready: 4 × 15-minute blocks combining toda
 
 📌 *IMPORTANT POINTERS (The Story)*
 • 📖 BLOCK 1 (Insight Engine • 15m): Read today's 4 live verified briefing(s) above for 10m, then lock text for 5m Active Recall.
-• 🧩 BLOCK 2 (Logic Crucible • 15m): Daily Fluid-IQ Sequence Challenge → 5  →  10  →  12  →  24  →  26  →  52  →  [ ? ] (Options: 56, 50, 48, 54)
-• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'First Principles Decomposition' (Instead of reasoning by analogy ('copying what others do with slight tweaks'), break a complex system down int...) to today's lead story: "Flavio Bolsonaro ‘leaves Brazil for US with family days after losing election’".
+• 🧩 BLOCK 2 (Logic Crucible • 15m): Daily Fluid-IQ Sequence Challenge → 5  →  10  →  14  →  28  →  32  →  64  →  [ ? ] (Options: 66, 72, 68, 64)
+• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'First Principles Decomposition' (Instead of reasoning by analogy ('copying what others do with slight tweaks'), break a complex system down int...) to today's lead story: "Ukrainian arms manufacturer Fire Point claims to have overcome Starlink restrictions for long-range strikes".
 • 🔁 BLOCK 4 (Integration Loop SRS • 15m): Priority Weak-Concept Recall [History/Geography] → Cross-Disciplinary Synthesis: Using a structural systems lens, how does the 16th-century Portuguese 'cartaz' naval node strategy parallel mo
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Block 2 Answer Key: 54 (Alternating operator recurrence: (×2), then (+2), repeating.) | Remember to log your 3 Daily Biometric Toggles (7–8h Sleep, Cardio, Omega-3/Hydration) to keep 7-day compliance ≥ 70%.
+Block 2 Answer Key: 68 (Alternating operator recurrence: (×2), then (+4), repeating.) | Remember to log your 3 Daily Biometric Toggles (7–8h Sleep, Cardio, Omega-3/Hydration) to keep 7-day compliance ≥ 70%.
 
 📚 *VERIFIED SOURCES*
 🔗 Block 1–4 Interactive Cortex60 Web App: https://github.com
