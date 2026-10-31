@@ -41,11 +41,24 @@ class EmailNotifier:
         msg.attach(MIMEText(html_body, "html", "utf-8"))
 
         try:
-            with smtplib.SMTP(self.host, self.port, timeout=15) as server:
-                server.starttls()
-                server.login(self.user, self.password)
-                recipients = [r.strip() for r in self.email_to.split(",") if r.strip()]
-                server.sendmail(self.email_from, recipients, msg.as_string())
-            return True, f"Sent email with {len(stories)} verified story(s) to {self.email_to}"
+            recipients = [r.strip() for r in self.email_to.split(",") if r.strip()]
+            user_login = self.user if "@" in self.user else f"{self.user}@gmail.com"
+            from_addr = self.email_from if "@" in self.email_from else user_login
+            msg.replace_header("From", from_addr)
+
+            # Try SSL port 465 first for Gmail on cloud runners, then fallback to STARTTLS port 587
+            try:
+                with smtplib.SMTP_SSL(self.host, 465, timeout=15) as server:
+                    server.login(user_login, self.password)
+                    server.sendmail(from_addr, recipients, msg.as_string())
+                return True, f"Sent email with {len(stories)} verified story(s) to {self.email_to} (SSL:465)"
+            except Exception:
+                with smtplib.SMTP(self.host, self.port, timeout=15) as server:
+                    server.ehlo()
+                    server.starttls()
+                    server.ehlo()
+                    server.login(user_login, self.password)
+                    server.sendmail(from_addr, recipients, msg.as_string())
+                return True, f"Sent email with {len(stories)} verified story(s) to {self.email_to} (TLS:{self.port})"
         except Exception as exc:
             return False, f"SMTP error: {exc}"
