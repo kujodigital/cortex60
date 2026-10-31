@@ -48,12 +48,12 @@ Cross-verified against 3 external news report(s); no community dispute flags det
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-Trending on Hacker News (709 points, 409 comments).
+Trending on Hacker News (710 points, 409 comments).
 
 📌 *IMPORTANT POINTERS (The Story)*
 • Primary Report: Serbia just elected the world's brainiest parliament published via science.org.
 • Independent Cross-Check: Corroborated by 1 independent coverage feed(s) (Funding the Future).
-• Discussion Velocity: 709 upvotes and 409 community comments on Hacker News.
+• Discussion Velocity: 710 upvotes and 409 community comments on Hacker News.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
 Top community context [HN @vasco]: I used to believe very hard in technocratic governments where experts lead instead of politicians merely consulting with them as most countries do (or pretend to do to give cover to whatever they'd do anyway). Supposedly very technocatric governme
@@ -97,12 +97,12 @@ Your 60-minute cognitive schedule is ready: 4 × 15-minute blocks combining toda
 
 📌 *IMPORTANT POINTERS (The Story)*
 • 📖 BLOCK 1 (Insight Engine • 15m): Read today's 4 live verified briefing(s) above for 10m, then lock text for 5m Active Recall.
-• 🧩 BLOCK 2 (Logic Crucible • 15m): Daily Fluid-IQ Sequence Challenge → 2  →  4  →  6  →  12  →  14  →  28  →  [ ? ] (Options: 30, 28, 32, 24)
+• 🧩 BLOCK 2 (Logic Crucible • 15m): Daily Fluid-IQ Sequence Challenge → 2  →  4  →  7  →  14  →  17  →  34  →  [ ? ] (Options: 39, 35, 37, 43)
 • ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'First Principles Decomposition' (Instead of reasoning by analogy ('copying what others do with slight tweaks'), break a complex system down int...) to today's lead story: "Ukrainian arms manufacturer Fire Point claims to have overcome Starlink restrictions for long-range strikes".
 • 🔁 BLOCK 4 (Integration Loop SRS • 15m): Priority Weak-Concept Recall [History/Geography] → Cross-Disciplinary Synthesis: Using a structural systems lens, how does the 16th-century Portuguese 'cartaz' naval node strategy parallel mo
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Block 2 Answer Key: 30 (Alternating operator recurrence: (×2), then (+2), repeating.) | Remember to log your 3 Daily Biometric Toggles (7–8h Sleep, Cardio, Omega-3/Hydration) to keep 7-day compliance ≥ 70%.
+Block 2 Answer Key: 37 (Alternating operator recurrence: (×2), then (+3), repeating.) | Remember to log your 3 Daily Biometric Toggles (7–8h Sleep, Cardio, Omega-3/Hydration) to keep 7-day compliance ≥ 70%.
 
 📚 *VERIFIED SOURCES*
 🔗 Block 1–4 Interactive Cortex60 Web App: https://github.com
