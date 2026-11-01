@@ -1,77 +1,121 @@
-✅ *[WORLD] Russia opens terrorism case over Ukraine oil refinery attack*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 78/100
+✅ *[WORLD] Shops looted as German cost-of-living protests turn violent*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 98/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-A facility which Ukraine named "one of Russia's largest" oil refineries reportedly sustained "significant damage" in the "massive drone attack".
+The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• Russia has opened a terrorism case over a Ukrainian attack on an industrial facility in the Nizhny Novgorod region.
-• Earlier, the region's governor said an unnamed facility had sustained "significant damage" after a "massive" drone attack.
-• Ukrainian media reported the attack had hit the Kstovo oil refinery, calling it "one of Russia's largest".
-• Russian investigators have opened a criminal case on terrorism charges over a Ukrainian attack on an industrial facility in the Nizhny Novgorod region, state news agency TASS reports.
+• Rioters looted shops in central Frankfurt late on Saturday as clashes erupted in German cities over the cost of living.
+• Besides Frankfurt - Germany's financial hub - there were incidents of violence in Berlin, Cologne and Hamburg, with police saying they used water cannon to disperse protesters who were targeting emergency workers with fireworks, stones and bottles.
+• Thousands joined largely peaceful demonstrations earlier in the day.
+• They were organised by the campaign group Gen Z regelt - meaning "Gen Z takes charge" - to protest against underfunding in schools, the high cost of living, public spending cuts and military service.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "Russia opens terrorism case over Ukraine oil refinery attack", and HOW is it unfolding on the ground?
-*A:* A facility which Ukraine named "one of Russia's largest" oil refineries reportedly sustained "significant damage" in the "massive drone attack". Specifically: Russia has opened a terrorism case over a Ukrainian attack on an industrial facility in the Nizhny Novgorod region.
+*Q:* WHAT actually happened in "Shops looted as German cost-of-living protests turn violent", and HOW is it unfolding on the ground?
+*A:* The protests in cities across Germany - including Berlin, Hamburg and Frankfurt - came on the same day hundreds of thousands also protested in France. Rioters looted shops in central Frankfurt late on Saturday as clashes erupted in German cities over the cost of living.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by abc.net.au is direct operational/legal pressure: Earlier, the region's governor said an unnamed facility had sustained "significant damage" after a "massive" drone attack.
+*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: Besides Frankfurt - Germany's financial hub - there were incidents of violence in Berlin, Cologne and Hamburg, with police saying they used water cannon to disperse protesters who were targeting emergency workers with fireworks, stones and bottles.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Geopolitical and institutional actors operate under asymmetric leverage and resource constraints. Earlier, the region's governor said an unnamed facility had sustained "significant damage" after a "massive" drone attack. In international affairs, states and organizations adjust operational tactics whenever existing treaties, supply corridors, or legal jurisdictions create a bottleneck.
+*A:* Geopolitical and institutional actors operate under asymmetric leverage and resource constraints. Besides Frankfurt - Germany's financial hub - there were incidents of violence in Berlin, Cologne and Hamburg, with police saying they used water cannon to disperse protesters who were targeting emergency workers with fireworks, stones and bottles. In international affairs, states and organizations adjust operational tactics whenever existing treaties, supply corridors, or legal jurisdictions create a bottleneck.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Over the next 6–24 months, this shift forces counterpart nations and regulatory bodies to adapt their deterrence, compliance, or diplomatic posture. Corroborated across ABC News & Headlines – Australian Broadcasting Corporation, Hindustan Times, Devdiscourse, this establishes a new operational baseline rather than a temporary anomaly.
+*A:* Second-Order Consequence ('And Then What?'): Over the next 6–24 months, this shift forces counterpart nations and regulatory bodies to adapt their deterrence, compliance, or diplomatic posture. Corroborated across Yahoo, NBC News, BBC, this establishes a new operational baseline rather than a temporary anomaly.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 independent news outlet(s) (ABC News & Headlines – Australian Broadcasting Corporation, Hindustan Times, Devdiscourse); zero community dispute or clickbait flags detected.
+Cross-verified against 3 independent news outlet(s) (Yahoo, NBC News, BBC); zero community dispute flags detected.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: abc.net.au: https://www.abc.net.au/news/2026-11-01/russia-opens-terrorism-case-over-ukraine-oil-refinery-attack/107334242?utm_source=abc_news_web&utm_medium=content_shared&utm_campaign=abc_news_web&utm_content=mail
-🔗 Discussion: r/worldnews: https://www.reddit.com/r/worldnews/comments/1xl10qe/russia_opens_terrorism_case_over_ukraine_oil/
-🔗 Corroborating (ABC News & Headlines – Australian Broadcasting Corporation): https://news.google.com/rss/articles/CBMirgFBVV95cUxQa2pBdjRDa3Vwb2lLQ2ZpUzVWSTRIVlhPN3Fka1FJeGRuaUQ5VjZZMk5JUHJHVU1fRDJpSFNrNXlvY2JkTV92MnpvNUhlS1BXbmZwSEVWTDFCeE53T0F5dmpHMnBKVjdJZU9nOWZfQkxpaXVaSG1kbVFfVVJRUnhjX3pWSTkyY09DbE8ydlNJNU1Bb1E3MTVDWWZpQVdkcFBmbTJZMmZ3RHFDSWhfNnc?oc=5
-🔗 Corroborating (Hindustan Times): https://news.google.com/rss/articles/CBMi9gFBVV95cUxPN2dUdTJjNGUyRXN5c0JtY1FOSkNJbktxX2twVTZqU2dUV3M0WEtlVzMxblVrcVk3Q3pKTUNJRTBOMGZsb1JQa05sa2VPQ09vOVpnZHR6RzRhUFk5M053MktBVnRiZ0JqTmJfcEFCTUNzX3FCY2l0STR2bndveWRGT05jS3M3cjRrTTBBeHVJODRBcFBHeDJjN1I1c3VsZDJHb3BfZjc1S2YtaGh6TnFWT2xDWGFXa0l1d3RlQ2NsMGMtcDRZTWJpalAtZVlyanlfd25zNjQ4bXlPRmt2Nl9LSmVweFVuR1lfM0ZScTAtVUVmdGR5SEHSAfsBQVVfeXFMTnlNTGp3bGplQ3lsYlRWQlpxNi10Z0U5b0xxdFpYeXVhUEMzbDk4OWJEMXc2dloyRmdpZnJFaXdmUUo1UjNkX0FCODg1WkRRTXNUN3VEQ05fSlkwODJKa2dLZjRtSDdTN21Kd3BXRjB3UV91ekVCNUx0UHo1Q1hsWDBMUTE3M0hPdGl4V0FsUEpGWWR2aGk5bVpqVlRrWFYtaURYS0JJbFpwVHZMQmcyMDhoYm9SVTRxVlhsZkx1OXB0SHNMbjhTVGNkSGZFSnJjRUFTOHlTMmNucFh6U2ExNHVpY0hQbTBqcG1nLWNISjNLcHoweHQzbUxHTzA?oc=5
+🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss
+🔗 Cited: lemonde.fr: https://www.lemonde.fr/en/france/article/2026/10/13/after-ban-of-one-stun-grenade-french-police-continue-to-use-a-different-model_6758546_7.html
+🔗 Corroborating (Yahoo): https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGdFQ2JxMXBFN2tPejZvT1dmdzVHMG9sSmhHMldra3VKRjNOOXhrRWpjZTNnTnR4VWRTNGZhaUFkZkZNNGM5Nzk5dEdGcEFWbWlVa21Od1QtWDdWV3B5SnpGOFZFaUNEUno5Wjg0dDRwT0FPdVJRRENFWDJ6ak1LLU11X2w1ZFRabzJuTHFHR19uUQ?oc=5
+🔗 Corroborating (NBC News): https://news.google.com/rss/articles/CBMitwFBVV95cUxNenVfTGpZR2o3aVZmVVlIaU1fUU1TZGc0ZDhtdkN2Nkc5N2tyZFVpa05IdXB2ODVMVzB6eWd0V2piUjZISFRIeGJQM3ExRC0tWXhlcmItNVFTbGctLVVOdzk2VVFNNTYxdldqaEZRODZuRHdvd0FSNkxvbFJ5dlY0eE5yRFdUNk4xWnRDbm1EbDZ5XzVqNFctZ3VaSkY0MEVBRU8xQTJEUE0wX1UtamZGQmJyVXR1NEU?oc=5
 
 ---
 
-✅ *[SCIENCE] Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b>*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
+✅ *[SECURITY] HackerTube: YouTube built from videos recommended by HN*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 86/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03553-7 Nature staff discuss the emerging field of pet longevity — plus, a researcher decides not to care about their student reviews.
+It was Friday night at 11pm, I was tired, I went to YouTube to watch something and realized that I was looking at an enshittified wall of slop.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• Primary Report: Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b> documented via nature.com.
-• Multi-Source Corroboration: Independently covered by 3 external news feed(s) (Nature, Nature, The Economist).
+• Insanely exaggerated thumbnails, dumb recommendations of the same tired topics, truly terrible idiocracy-grade content.
+• I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me.
+• So this morning (Saturday) I took a hold of my Opus 5.5 and gave it the task: Let's write our own YouTube clone based on whatever videos have been recommended on Hacker News.
+• Opus downloaded all comments of HackerNews, filtered them, ran Sonnet over them in a Workflow (Claude Code feature), got rid of spam, and narrowed everything down to 40K comments recommending a YouTube video.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b>", and HOW is it unfolding on the ground?
-*A:* Nature, Published online: 30 October 2026; doi:10.1038/d41586-026-03553-7 Nature staff discuss the emerging field of pet longevity — plus, a researcher decides not to care about their student reviews. Specifically: Primary Report: Briefing Chat: <b>Dog years: could longevity science extend your pets' lives?</b> documented via nature.com.
+*Q:* WHAT actually happened in "HackerTube: YouTube built from videos recommended by HN", and HOW is it unfolding on the ground?
+*A:* It was Friday night at 11pm, I was tired, I went to YouTube to watch something and realized that I was looking at an enshittified wall of slop. Insanely exaggerated thumbnails, dumb recommendations of the same tired topics, truly terrible idiocracy-grade content.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by nature.com is direct operational/legal pressure: Multi-Source Corroboration: Independently covered by 3 external news feed(s) (Nature, Nature, The Economist).
+*A:* The immediate catalyst documented by karpathy.bearblog.dev is direct operational/legal pressure: I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. Multi-Source Corroboration: Independently covered by 3 external news feed(s) (Nature, Nature, The Economist). Underlying physical or biological constraints dictate what scales sustainably.
+*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. I'm sure this algorithm works well for the median person on the internet, but it definitely does not work for me. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
+
+🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
+*Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
+*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via news.lavx.hu, FourWeekMBA, news.lavx.hu).
+
+🔍 *COMMUNITY & FACT-CHECK CONTEXT*
+Community context (Hacker News): [HN @sc970]: How many tokens (or $) does something like this take to make?
+
+📚 *VERIFIED SOURCES*
+🔗 Primary: karpathy.bearblog.dev: https://karpathy.bearblog.dev/hacker-tube/
+🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50319510
+🔗 Cited: hackertube.org: https://hackertube.org/
+🔗 Corroborating (news.lavx.hu): https://news.google.com/rss/articles/CBMiowFBVV95cUxPR1lHQ2hZcW05TmdXazRka2pxTHhoaGdtN1NxaFpaTmlSMGNBYU5JdnR1Y0dncmFfX2d2QUVSazl0azVOcDQyeGIxZ0JaY2toNmFnUHpZdlV5clc5dTJwTGNNVDFVc3VhWFhZekQyM2VWWHVFNU9aeldYR040SmVoSUFKb0QwMzZRNERyU3JJT2owNm1sU3pKZGtBTm1hbFdmcUpz?oc=5
+🔗 Corroborating (FourWeekMBA): https://news.google.com/rss/articles/CBMijAFBVV95cUxNNTdnYVBPOWMxalkyQVh2R0ItRWpOQS1MTkwxeEZpNVRsSV9aMUFMel9Wb1BCZ3A3VW9tLU14OTZBRzNDTDBjSzQxbl9NNEk4MHFHSklUUV9ZSENuZ3ZkOGdVT0kyYm4yUms2RV9XQzNPX2h2U3M3NGlMb3hTNXJJcWI5SFRVVi1RRXFxQw?oc=5
+
+---
+
+✅ *[SCIENCE] 'Fascinating' rare beetle found in Wales again after 60 years*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 98/100
+
+⚡ *QUICK BITE (Zero Fluff)*
+It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys.
+
+📌 *IMPORTANT POINTERS (The Story)*
+• A rare species of beetle has been found in Pembrokeshire after not being seen in Wales for 60 years.
+• The Short-Necked Oil Beetle is named after the adult beetles' stubby shape and its ability to secrete an oily yellow-orange substance from its knee joints when alarmed.
+• They were not reported in the UK for almost 60 years after 1948 as habitat loss brought the species to the brink of extinction.
+• Anne Hobbs, from the Bumblebee Conservation Trust, said it was "very exciting" that the evidence suggested the species was breeding in Wales again.
+
+🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
+🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
+*Q:* WHAT actually happened in "'Fascinating' rare beetle found in Wales again after 60 years", and HOW is it unfolding on the ground?
+*A:* It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys. A rare species of beetle has been found in Pembrokeshire after not being seen in Wales for 60 years.
+
+🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
+*Q:* WHY did this development happen right now? (First-Order Cause)
+*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: The Short-Necked Oil Beetle is named after the adult beetles' stubby shape and its ability to secrete an oily yellow-orange substance from its knee joints when alarmed.
+
+🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
+*Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
+*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. The Short-Necked Oil Beetle is named after the adult beetles' stubby shape and its ability to secrete an oily yellow-orange substance from its knee joints when alarmed. Underlying physical or biological constraints dictate what scales sustainably.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
 *A:* Second-Order Consequence ('And Then What?'): Empirical findings and regulatory enforcement reshape capital allocation, forcing institutions to internalize physical and ecological constraints early in project design.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 independent news outlet(s) (Nature, Nature, The Economist); zero community dispute or clickbait flags detected.
+Cross-verified against 3 independent news outlet(s) (The Guardian, BBC, Around Prague); zero community dispute flags detected.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: nature.com: https://www.nature.com/articles/d41586-026-03553-7
-🔗 Corroborating (Nature): https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NYnVyakhwTHRkTUh3Ml9POG9PbGxNM3RQcHpLNngydHRNOHZnNEZwN2FjR1VQS3JubXNfVjc4WHViTzJpLXNDelRLNlJEQVVCM3FVYWtYMGZ2My1pWEdz?oc=5
-🔗 Corroborating (Nature): https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nR1dzRWFCRlZLVERPaGpuN1d2WnVsODFKZzlyck5WUnNNdG5QWmRIQ1NPUWg4ZVJCZHNPTUZtdHJYYnl2TGs4eVVFdHlHVWx4YmM1S0xqb3ZKR1MxRUI0?oc=5
+🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/cry8317pdp5yo?at_medium=RSS&at_campaign=rss
+🔗 Cited: iucnredlist.org: https://www.iucnredlist.org/
+🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMioAFBVV95cUxNUGw2NU9tNWctUENLQVFNWG1iS0pMSEdFZmxYNkFlcFdXRXVUT0ptdjY0ZFR1RnRVYmdTMXpOQjZnSk4tdW1vZUJGZ09OcHZHYXB4QzItNmNqUDhGR0ZGczJxNjcxaXFSSTk2WnJZNVAzQ2NEMHhXRDlZOU0xTDQtNU9ndGlHQW1JamNKQU56STltR2Z0SWVSRjFIeEktcDhm?oc=5
+🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTNWJrc2xlc0JVM3lwWjZjUmFwcUN1ekZXa0QzMDVBUTBjRmVoNnJoVWxPeWpZWmY5YWxuN0FITllieWxQUXo3X2ZUbFhfRHhiWFoyZm41SlRsdTZqcXc?oc=5
 
 ---
 
@@ -82,23 +126,23 @@ Cross-verified against 3 independent news outlet(s) (Nature, Nature, The Economi
 When a seven-eared stem emerged from the ground, it seemed like a miracle.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify.
+• What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems.
+• Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify.
 • The bag, he was sure, had been left by his late great-grandfather, who’d started the farmstead around 1915.
 • Grossi had no idea how long the seeds had been sitting there, deprived of water, soil and sun.
-• Dry and cracked, the kernels looked so old in the palm of his hand that he doubted anything would ever sprout from them.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
 *Q:* WHAT actually happened in "An Italian farmer found some unknown seeds in his attic and planted them", and HOW is it unfolding on the ground?
-*A:* When a seven-eared stem emerged from the ground, it seemed like a miracle. Specifically: What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify.
+*A:* When a seven-eared stem emerged from the ground, it seemed like a miracle. What Claudio Grossi had unearthed was an ancient grain that proved to be an answer to some modern problems.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by smithsonianmag.com is direct operational/legal pressure: The bag, he was sure, had been left by his late great-grandfather, who’d started the farmstead around 1915.
+*A:* The immediate catalyst documented by smithsonianmag.com is direct operational/legal pressure: Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. The bag, he was sure, had been left by his late great-grandfather, who’d started the farmstead around 1915. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
+*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. Sometime in the early 1990s, Claudio Grossi, a 40-year-old farmer in Parma, in northern Italy, was cleaning his attic when he turned up an old sack full of seeds that he couldn’t identify. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
@@ -123,9 +167,9 @@ Community context (Hacker News): [HN @tmaly]: This is interesting for people wit
 Your 60-minute daily cognitive workout is structured below into 4 × 15-minute blocks—complete with today's active recall prompts and full step-by-step verified answers.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• 📖 BLOCK 1 (Insight Engine • 15m): Deep-read today's 3 verified stories above + 'Antifragile Bio-Energetics: Hormesis, PGC-1α Mitochondrial Biogenesis & Tail-Risk Convexity' (10m read, then 5m active recall).
-• 🧩 BLOCK 2 (Logic Crucible • 15m): Fluid-IQ Sequence Challenge → 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] | Choices: 61, 65, 55, 57
-• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'Second-Order Thinking ('And Then What?')' to today's lead event: "Russia opens terrorism case over Ukraine oil refinery attack".
+• 📖 BLOCK 1 (Insight Engine • 15m): Deep-read today's 4 verified stories above + 'Antifragile Bio-Energetics: Hormesis, PGC-1α Mitochondrial Biogenesis & Tail-Risk Convexity' (10m read, then 5m active recall).
+• 🧩 BLOCK 2 (Logic Crucible • 15m): Fluid-IQ Sequence Challenge → 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] | Choices: 55, 67, 61, 65
+• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'Second-Order Thinking ('And Then What?')' to today's lead event: "Shops looted as German cost-of-living protests turn violent".
 • 🔁 BLOCK 4 (Integration Loop SRS • 15m): Priority Weak-Concept Drill [History/Geography].
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
@@ -134,7 +178,7 @@ Your 60-minute daily cognitive workout is structured below into 4 × 15-minute b
 *A:* ✅ ANSWER: PGC-1α; 1956 — PGC-1α is the master regulator of mitochondrial biogenesis, and John L. Kelly Jr. published his information-theoretic bet-sizing paper at Bell Labs in 1956.
 
 🔹 *[BLOCK 2 • THE LOGIC CRUCIBLE (15 MINS — FLUID IQ PUZZLE & SOLUTION)]*
-*Q:* Deduce the 7th term in the sequence: 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] (Choices: 61, 65, 55, 57)
+*Q:* Deduce the 7th term in the sequence: 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] (Choices: 55, 67, 61, 65)
 *A:* ✅ ANSWER: 61 — Alternating operator recurrence: (×2), then (+3), repeating.
 
 🔹 *[BLOCK 3 • MENTAL MODEL RE-WIRING (15 MINS — CASE STUDY & SOLUTION)]*
