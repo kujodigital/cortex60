@@ -41,7 +41,8 @@ class EmailNotifier:
         msg.attach(MIMEText(html_body, "html", "utf-8"))
 
         try:
-            recipients = [r.strip() for r in self.email_to.split(",") if r.strip()]
+            # Deduplicate recipient addresses preserving order
+            recipients = list(dict.fromkeys(r.strip() for r in self.email_to.split(",") if r.strip()))
             user_login = self.user if "@" in self.user else f"{self.user}@gmail.com"
             from_addr = self.email_from if "@" in self.email_from else user_login
             msg.replace_header("From", from_addr)

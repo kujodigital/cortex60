@@ -29,7 +29,12 @@ class VeriPulseEngine:
         self.medium = MediumCollector(settings.medium_tags, limit_per_tag=1)
         self.news = NewsAndHNCollector(settings.news_feeds, limit_per_feed=1, hn_limit=2)
 
-    def run_cycle(self, ignore_seen: bool = False, max_items: int | None = None) -> tuple[list[VerifiedStory], dict[str, str]]:
+    def run_cycle(
+        self,
+        ignore_seen: bool = False,
+        max_items: int | None = None,
+        dispatch: bool = True,
+    ) -> tuple[list[VerifiedStory], dict[str, str]]:
         limit = max_items or settings.max_alerts_per_cycle
         console.print("[bold cyan]📡 Polling Reddit, Medium, BBC/News RSS, and Hacker News...[/bold cyan]")
 
@@ -59,7 +64,10 @@ class VeriPulseEngine:
                 verified_stories.append(story)
                 self._print_story_card(story)
 
-        dispatch_status = self.dispatcher.dispatch(verified_stories)
+        if dispatch:
+            dispatch_status = self.dispatcher.dispatch(verified_stories)
+        else:
+            dispatch_status = {"status": "Dispatch deferred to caller"}
         return verified_stories, dispatch_status
 
     def watch_forever(self) -> None:
