@@ -1,10 +1,9 @@
 name: Kujo Brainiache Serverless Cloud Engine
 
 on:
-  # Runs twice daily at 08:00 AM IST (02:30 UTC) and 08:00 PM IST (14:30 UTC)
-  # Adjust cron expression to '0 */3 * * *' if you want every 3 hours
+  # Runs twice daily at exactly 02:00 PM IST (08:30 UTC) and 10:00 PM IST (16:30 UTC)
   schedule:
-    - cron: "30 2,14 * * *"
+    - cron: "30 8,16 * * *"
   # Allows triggering a live cloud run anytime with 1 click in the GitHub Actions tab
   workflow_dispatch:
     inputs:

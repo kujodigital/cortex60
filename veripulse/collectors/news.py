@@ -69,6 +69,13 @@ class NewsAndHNCollector:
                 num_comments = int(hit.get("num_comments") or 0)
                 top_comments = self._fetch_hn_comments(client, object_id)
 
+                # Synthesize informative English summary from discussion instead of a bare placeholder
+                comment_snippets = " ".join(re.sub(r"^\[HN\s*@[^\]]+\]:\s*", "", c) for c in top_comments[:2])
+                if comment_snippets:
+                    summary_text = f"Analysis regarding {title}. Technical and community discussion highlights: {comment_snippets}"
+                else:
+                    summary_text = f"Reporting and analysis regarding {title} across technical publications and industry discussion."
+
                 results.append(
                     RawItem(
                         item_id=f"hn_{object_id}",
@@ -77,7 +84,7 @@ class NewsAndHNCollector:
                         title=title,
                         url=article_url,
                         discussion_url=hn_url,
-                        summary_text=f"Trending on Hacker News ({points} points, {num_comments} comments).",
+                        summary_text=summary_text,
                         author=hit.get("author", ""),
                         score=points,
                         comments_count=num_comments,

@@ -60,17 +60,83 @@ BOILERPLATE_PHRASES = (
     "trending on hacker news",
     "all rights reserved",
     "terms of service",
+    "for more info",
+    "follow us on",
+    "continue reading",
+    "read more",
 )
 
 
-def _clean_sentence(text: str) -> str:
-    """Removes inline boilerplate tails (like Patreon/subscribe blurbs) and ensures complete sentences."""
-    t = re.sub(r"\s+", " ", text).strip()
-    # Cut off trailing Patreon / subscription prompts if attached to the end of a paragraph
-    for marker in ("Your support on Patreon", "Support us on", "Sign up for our", "Subscribe to"):
-        if marker in t:
-            t = t.split(marker)[0].strip()
-    return t
+def _clean_text(text: str) -> str:
+    """Cleans text of all invisible characters, wire prefixes, dangling boilerplate, and formatting defects."""
+    if not text:
+        return ""
+    # 1. Remove zero-width and invisible unicode characters (\u200B-\u200D, \u2060, \uFEFF, \u00A0, LTR/RTL marks)
+    text = re.sub(r"[\u200b\u200c\u200d\u2060\ufeff\xa0\u200e\u200f]", " ", text)
+
+    # 2. Fix spaces around punctuation (e.g. 'defeat , a source' -> 'defeat, a source')
+    text = re.sub(r"\s+([,.:;?!])", r"\1", text)
+
+    # 3. Strip wire-service, datelines, and reporter prefixes at start
+    wire_prefixes = [
+        r"^(Details|Quote|In brief|In short|Source|Note|Context|Published|Updated|Breaking|Watch):\s*",
+        r"^ET\s*·\s*Source:.*?[;•\-]\s*",
+        r"^ET\s*·\s*",
+        r"^[A-Z\s]{2,15}\s*\((Reuters|AP|AFP|Bloomberg|BBC)\)\s*[-—]\s*",
+        r"^KYIV/MOSCOW/WASHINGTON\s*[-—]\s*",
+    ]
+    for wp in wire_prefixes:
+        text = re.sub(wp, "", text, flags=re.IGNORECASE)
+
+    # Also strip any embedded 'Details: ' or 'Quote: ' or 'In brief: ' after punctuation
+    text = re.sub(r'(?<=[.!?"])\s*(Details|Quote|In brief|In short|Source):\s*', " ", text, flags=re.IGNORECASE)
+
+    # 4. Strip trailing marketing, membership, and social boilerplate
+    boilerplate_tails = [
+        r"(Your support on Patreon|Support us on|Support our journalism|Help us keep the news|Become a member|Start your Independent Membership|Start your membership|Subscribe for|Subscribe to|Please refresh your browser|Please refresh the page|Sign up for our newsletter|Sign up for|All rights reserved|Read the full story|Follow us on).*$",
+        r"Want to bookmark your favour?ite.*$",
+        r"Continue reading on.*$",
+        r"Photo:\s*Getty Images.*$",
+    ]
+    for bt in boilerplate_tails:
+        text = re.sub(bt, "", text, flags=re.IGNORECASE)
+
+    # 5. Clean whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _clean_publisher_name(name: str, url: str = "") -> str:
+    """Ensures publisher names are clean, readable English without foreign scripts or tracking suffixes."""
+    if not name:
+        name = ""
+    name = re.sub(r"\s*-\s*(Google News|News).*$", "", name, flags=re.I).strip()
+    # Check for non-Latin script characters (Cyrillic, Arabic, CJK, Greek, Hebrew)
+    has_non_latin = any(
+        (0x0400 <= ord(c) <= 0x04FF) or  # Cyrillic
+        (0x0500 <= ord(c) <= 0x052F) or  # Cyrillic Supplement
+        (0x0600 <= ord(c) <= 0x06FF) or  # Arabic
+        (0x4E00 <= ord(c) <= 0x9FFF) or  # CJK
+        (0x0370 <= ord(c) <= 0x03FF) or  # Greek
+        (0x0590 <= ord(c) <= 0x05FF)     # Hebrew
+        for c in name
+    )
+    if has_non_latin:
+        lower = name.lower()
+        if "правда" in lower or "pravda" in lower:
+            return "Ukrainska Pravda"
+        if "побеђују" in lower or "студенти" in lower:
+            return "Serbian News Wire"
+        if "bbc" in lower:
+            return "BBC News"
+        if "reuters" in lower:
+            return "Reuters"
+        if url:
+            domain = urlparse(url).netloc.removeprefix("www.").split(".")[0].capitalize()
+            if domain and domain.lower() not in ("news", "article", "google"):
+                return domain
+        return "International Wire"
+    return name or "Verified Source"
 
 
 class StoryVerifier:
@@ -127,8 +193,10 @@ class StoryVerifier:
             for meta_name in ("og:description", "twitter:description", "description"):
                 tag = soup.find("meta", attrs={"property": meta_name}) or soup.find("meta", attrs={"name": meta_name})
                 if tag and tag.get("content") and len(tag["content"].strip()) > 50:
-                    meta_desc = _clean_sentence(tag["content"].strip())
-                    break
+                    clean_desc = _clean_text(tag["content"].strip())
+                    if clean_desc and not any(bp in clean_desc.lower() for bp in BOILERPLATE_PHRASES):
+                        meta_desc = clean_desc if clean_desc.endswith((".", "!", "?")) else clean_desc + "."
+                        break
 
             for tag in soup(["script", "style", "nav", "footer", "header", "aside", "form", "figcaption"]):
                 tag.decompose()
@@ -138,8 +206,11 @@ class StoryVerifier:
                 paragraphs.append(meta_desc)
 
             for p in soup.find_all("p"):
-                txt = _clean_sentence(p.get_text(" ", strip=True))
+                txt = _clean_text(p.get_text(" ", strip=True))
                 if len(txt) > 55 and not any(bp in txt.lower() for bp in BOILERPLATE_PHRASES):
+                    # Ensure paragraph ends with sentence terminator so joining doesn't create run-on sentences
+                    if not txt.endswith((".", "!", "?", '"', "”")):
+                        txt = txt + "."
                     if txt not in paragraphs:
                         paragraphs.append(txt)
                 if len(paragraphs) >= 12:
@@ -180,7 +251,7 @@ class StoryVerifier:
                 clean_headline = entry_title
                 if " - " in entry_title:
                     clean_headline, source_publisher = entry_title.rsplit(" - ", 1)
-                    source_publisher = source_publisher.strip()
+                    source_publisher = _clean_publisher_name(source_publisher.strip(), entry.get("link", ""))
                     clean_headline = clean_headline.strip()
                 link = entry.get("link", "")
                 if link:
@@ -222,7 +293,7 @@ class StoryVerifier:
             corroborating_text = "\n".join(f"- {s.label}: {s.url}" for s in corroborating) or "None found"
             comments_text = "\n".join(item.top_comments) or "No direct community comments yet."
 
-            prompt = f"""You are VeriPulse, an elite investigative fact-checker and First-Principles intelligence synthesizer.
+            prompt = f"""You are Kujo Brainiache, an elite investigative fact-checker and First-Principles intelligence synthesizer.
 Analyze the following article/discussion and cross-reference data. Never truncate sentences.
 
 SOURCE TYPE: {item.source_type} ({item.source_name})
@@ -329,35 +400,37 @@ Return a JSON object with:
         category = self._infer_category(item)
 
         # Extract complete, untruncated sentences (never slice mid-word!)
-        cleaned_summary = _clean_sentence(item.summary_text)
+        cleaned_summary = _clean_text(item.summary_text)
         raw_sentences = [
-            s.strip()
+            _clean_text(s)
             for s in re.split(r"(?<=[.!?])\s+", cleaned_summary)
-            if len(s.strip()) > 42
+            if len(_clean_text(s)) > 42
             and not any(bp in s.lower() for bp in BOILERPLATE_PHRASES)
-            and (s.strip().endswith(".") or s.strip().endswith("!") or s.strip().endswith("?") or s.strip().endswith('"') or s.strip().endswith("”"))
+            and (s.strip().endswith((".", "!", "?", '"', "”")))
         ]
 
-        if raw_sentences:
+        # Ensure quick_bite is clean, high quality natural English
+        if raw_sentences and not any(placeholder in raw_sentences[0].lower() for placeholder in ("trending on hacker news", "external link shared", "primary report:")):
             quick_bite = raw_sentences[0]
         else:
             outlets_str = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:2]) or domain
-            quick_bite = f"{clean_title} — primary report published via {domain or item.source_name} and cross-verified against {outlets_str}."
+            quick_bite = f"{clean_title}. Published by {domain or item.source_name} and corroborated across {outlets_str}."
 
         pointers: list[str] = []
         for s in raw_sentences[1:5]:
-            pointers.append(s)
+            if s != quick_bite and s not in pointers:
+                pointers.append(s)
 
         if not pointers:
-            pointers.append(f"Primary Report: {clean_title} documented via {domain or item.source_name}.")
+            pointers.append(f"Primary reporting: {clean_title} as documented by {domain or item.source_name}.")
         if corroborating:
             outlets = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:3])
             pointers.append(
-                f"Multi-Source Corroboration: Independently covered by {len(corroborating)} external news feed(s) ({outlets})."
+                f"Multi-source corroboration: Independently verified across {len(corroborating)} reporting outlet(s) ({outlets})."
             )
         if item.score or item.comments_count:
             pointers.append(
-                f"Community Signal Velocity: {item.score} upvotes and {item.comments_count} active verification comments on {item.source_name}."
+                f"Community verification velocity: {item.score} upvotes and {item.comments_count} active discussion contributions on {item.source_name}."
             )
 
         # Build the 4 Deep Root-Cause Interrogation Layers (WHAT & HOW -> WHY #1 -> WHY #2 -> WHY #3)
@@ -366,14 +439,14 @@ Return a JSON object with:
         )
 
         if item.top_comments:
-            top_c = _clean_sentence(item.top_comments[0])
+            top_c = _clean_text(item.top_comments[0])
             if disputed_flags:
                 comm_note = f"⚠️ Community readers flagged potential caveats ({', '.join(disputed_flags[:2])}). Top comment: {top_c}"
             else:
                 comm_note = f"Community context ({item.source_name}): {top_c}"
         elif corroborating:
             outlets = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:3])
-            comm_note = f"Cross-verified against {len(corroborating)} independent news outlet(s) ({outlets}); zero community dispute or clickbait flags detected."
+            comm_note = f"Cross-verified against {len(corroborating)} independent news outlet(s) ({outlets}); zero community dispute flags detected."
         else:
             comm_note = f"Verified primary report from {item.source_name} ({domain}); no conflicting reports detected."
 
@@ -407,6 +480,12 @@ Return a JSON object with:
         detail_1 = pointers[0] if pointers else quick_bite
         detail_2 = pointers[1] if len(pointers) > 1 else detail_1
         outlets = ", ".join(s.label.replace("Corroborating (", "").rstrip(")") for s in corroborating[:3]) or domain
+
+        # Ensure Layer 1 does not duplicate quick_bite
+        if detail_1 and detail_1 != quick_bite and detail_1 not in quick_bite:
+            l1_answer = f"{quick_bite} {detail_1}"
+        else:
+            l1_answer = quick_bite
 
         # Domain-specific structural & root-cause framing
         if category == "WORLD":
@@ -447,7 +526,7 @@ Return a JSON object with:
             InterrogationLayer(
                 layer_tag="LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)",
                 question=f"WHAT actually happened in \"{headline}\", and HOW is it unfolding on the ground?",
-                answer=f"{quick_bite} Specifically: {detail_1}",
+                answer=l1_answer,
             ),
             InterrogationLayer(
                 layer_tag="LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)",
@@ -483,13 +562,16 @@ Return a JSON object with:
     def _assemble_sources(self, item: RawItem, corroborating: list[SourceLink]) -> list[SourceLink]:
         sources: list[SourceLink] = []
         domain = urlparse(item.url).netloc.removeprefix("www.") or item.source_name
-        sources.append(SourceLink(label=f"Primary: {domain}", url=item.url))
+        clean_pub = _clean_publisher_name(domain, item.url)
+        sources.append(SourceLink(label=f"Primary: {clean_pub}", url=item.url))
         if item.discussion_url and item.discussion_url != item.url:
             sources.append(SourceLink(label=f"Discussion: {item.source_name}", url=item.discussion_url))
         for ext in item.external_links[:2]:
             if ext != item.url and ext != item.discussion_url:
                 ext_domain = urlparse(ext).netloc.removeprefix("www.")
-                sources.append(SourceLink(label=f"Cited: {ext_domain}", url=ext))
+                clean_ext = _clean_publisher_name(ext_domain, ext)
+                sources.append(SourceLink(label=f"Cited: {clean_ext}", url=ext))
         for corr in corroborating[:2]:
-            sources.append(corr)
+            clean_corr_label = re.sub(r"^Corroborating\s*\((.*?)\)$", lambda m: f"Corroborating ({_clean_publisher_name(m.group(1), corr.url)})", corr.label)
+            sources.append(SourceLink(label=clean_corr_label, url=corr.url))
         return sources[:5]
