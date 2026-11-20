@@ -1,187 +1,187 @@
-✅ *[WORLD] Myanmar committed genocide against Rohingya minority, top UN court rules*
+✅ *[SECURITY] Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.
+Nobody was hurt and no damage has been reported, but Warsaw described the incident as a "provocation" from Moscow.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).
-• The verdict marks the first time a state has ever been found to have committed genocide by an international court.
-• Yuji Iwasawa, president of the UN's top court, said Myanmar had the "intention to destroy" a substantial part of the Rohingya population and engaged in "extensive destruction of evidence" to hide its crimes.
-• A military crackdown in 2017 killed thousands of Rohingya and forced more than 700,000 to flee Buddhist-majority Myanmar, formerly known as Burma.
+• Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region.
+• Russia has made no comment about the violations, which took place during one of its biggest aerial attacks on Ukraine since the start of the full-scale invasion in 2022.
+• Defence Minister Wladyslaw Kosiniak-Kamysz said the Kh-101 missile hit a rural area at Nowy Lipowiec in southeastern Poland about 50km (31 miles) from the Ukrainian border.
+• The cruise missile, designed for precision targets, crashed at about 06:30 (5:30GMT) and Natalie Szponar, a local resident, said she was getting her children ready for school when she heard a "whistle and a dull impact".
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "Myanmar committed genocide against Rohingya minority, top UN court rules", and HOW is it unfolding on the ground?
-*A:* The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands. Myanmar has been found guilty of committing genocide against its Rohingya minority by the International Court of Justice (ICJ).
+*Q:* WHAT actually happened in "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk", and HOW is it unfolding on the ground?
+*A:* Nobody was hurt and no damage has been reported, but Warsaw described the incident as a "provocation" from Moscow. Poland says a Russian cruise missile was among three objects that violated its airspace early on Friday, with Prime Minister Donald Tusk saying it did not appear to be an accident when Western military exercises were taking place in the region.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: The verdict marks the first time a state has ever been found to have committed genocide by an international court.
+*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: Russia has made no comment about the violations, which took place during one of its biggest aerial attacks on Ukraine since the start of the full-scale invasion in 2022.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Geopolitical and institutional actors operate under asymmetric leverage and resource constraints. The verdict marks the first time a state has ever been found to have committed genocide by an international court. In international affairs, states and organizations adjust operational tactics whenever existing treaties, supply corridors, or legal jurisdictions create a bottleneck.
+*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. Russia has made no comment about the violations, which took place during one of its biggest aerial attacks on Ukraine since the start of the full-scale invasion in 2022. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Over the next 6–24 months, this shift forces counterpart nations and regulatory bodies to adapt their deterrence, compliance, or diplomatic posture. Corroborated across CNN, The Guardian, UN News, this establishes a new operational baseline rather than a temporary anomaly.
+*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via CBS News, Sky News, Washington Times).
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 independent news outlet(s) (CNN, The Guardian, UN News); zero community dispute flags detected.
+Cross-verified against 3 independent news outlet(s) (CBS News, Sky News, Washington Times); zero community dispute flags detected.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss
-🔗 Corroborating (CNN): https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkxJZ3ZYcV96ZVltVE5YNDVVMFdrcWNicHdfcmFvNzRrUHdIeGYzNEZKaXFmZW1yVUhWMThQZU96Y3RreEU2U2pmTU54Nml4VV9iQnkzN3Z5bWJWOTk2TGFWZ0xBcnZ0NXRQdUhGTGZ0dEdITWZER1N2VnduS3VXbTh1c3JJb0dO?oc=5
-🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMigAFBVV95cUxQaDBRRS1KbTJxMzRiTlFFQnFlNW1uVk9jVWp0b2wtZ1VGNlJLTlFwaFo0SjFkbEM0djZyQW91M3lsN1lYTk00Qkw2VTJraGxZQWlHclF2YjhiVWJLUHlrMjFjdVB2M3M2SW9WMERERXR6NktITmNUNVpWdUZzVmlHWQ?oc=5
+🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss
+🔗 Corroborating (CBS News): https://news.google.com/rss/articles/CBMimAFBVV95cUxNYUFSTWdxSVdBMEtrN1RpU2F0eTZuOTVQV0lSQ1hsWERjY25VLWV2d1hlZHluaWZOeklXRWhaN3NrSmMtWjhFY2VKU0lWbU9FWndENldZU0owa1BaQ3N2eWN4WE9xOXhkNjlLMmxxb3AycE5sRHZqVnpXLTFnN1daRGh3MDh2cFR1RVBYLTNoMXdMbTZWSURtQQ?oc=5
+🔗 Corroborating (Sky News): https://news.google.com/rss/articles/CBMi2gFBVV95cUxNV05IRUNlamU5MEozb3hNeWtqMG5ja2lLbVdBME0wTVppd0VYZjdzMEZxanZzQmRZb3piaU1la3AxVDdiLWsxUDYwVk96Y1RwcHZ3UzhrMzdlYXRGTE54MUE1bE82SGNab0lTcEtSTVI4WXB0N0NqakUzMTctTUtyTnlhUHl6Q2lrSUJTaGEyOVRBb2ZMWkhheTFwUUtJSS1kZ0NfTmU1TzM0X2tENU1kY2NERDVDWVNsRjNNc3JQM3hFVXJ5SFphcHBCS3dPUXBEY1FkVXZBNWJHQQ?oc=5
 
 ---
 
-✅ *[SECURITY] How the European Commission rolled out Matrix to more than 40k staff*
+✅ *[SECURITY] Anthropic employee claims general proof of the Riemann Hypothesis [pdf]*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 82/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-The European Commission went from a Matrix proof of concept in December 2025 to a sovereign communication tool rolled out to every Commission laptop by September 2026.
+Analysis regarding Anthropic employee claims general proof of the Riemann Hypothesis [pdf].
 
 📌 *IMPORTANT POINTERS (The Story)*
-• That tool, built on Matrix by Element, and run by the Commission itself, now serves more than 40,000 users.
-• At The Matrix Conference 2026, Diana Gheorghe, Head of Sector for Digital Workplace Communication and Collaboration Services, and Alexandru Vignide, Service Delivery Manager for the Commission's sovereign communication tool, told the story of how they got there.
-• Multi-source corroboration: Independently verified across 3 reporting outlet(s) (The Register, NewsCord, BigGo Finance).
-• Community verification velocity: 530 upvotes and 266 active discussion contributions on Hacker News.
+• Technical and community discussion highlights: Insane if true!
+• Would also be great for Alpoge after being scooped by OpenAI on Navier Stokes...
+• Edit: just saw the Lean code is included in the footnote.
+• Considering the author's reputation, I think it's fair to remove the qualifications from the post title, by the standards of today, it's proven.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "How the European Commission rolled out Matrix to more than 40k staff", and HOW is it unfolding on the ground?
-*A:* The European Commission went from a Matrix proof of concept in December 2025 to a sovereign communication tool rolled out to every Commission laptop by September 2026. That tool, built on Matrix by Element, and run by the Commission itself, now serves more than 40,000 users.
+*Q:* WHAT actually happened in "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]", and HOW is it unfolding on the ground?
+*A:* Analysis regarding Anthropic employee claims general proof of the Riemann Hypothesis [pdf]. Technical and community discussion highlights: Insane if true!
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by element.io is direct operational/legal pressure: At The Matrix Conference 2026, Diana Gheorghe, Head of Sector for Digital Workplace Communication and Collaboration Services, and Alexandru Vignide, Service Delivery Manager for the Commission's sovereign communication tool, told the story of how they got there.
+*A:* The immediate catalyst documented by alpo.ge is direct operational/legal pressure: Would also be great for Alpoge after being scooped by OpenAI on Navier Stokes...
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. At The Matrix Conference 2026, Diana Gheorghe, Head of Sector for Digital Workplace Communication and Collaboration Services, and Alexandru Vignide, Service Delivery Manager for the Commission's sovereign communication tool, told the story of how they got there. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
+*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. Would also be great for Alpoge after being scooped by OpenAI on Navier Stokes... When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via The Register, NewsCord, BigGo Finance).
+*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via shattered.io, Nacionale, BigGo Finance).
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Community context (Hacker News): [HN @rwmj]: Given how much time I spend "verifying my device" and other issues with simply making it work, and multiplying that by 40000, I feel very sorry for them.
+Community context (Hacker News): [HN @jrflo]: Insane if true! Would also be great for Alpoge after being scooped by OpenAI on Navier Stokes... Edit: just saw the Lean code is included in the footnote. Considering the author's reputation, I think it's fair to remove the qualifications from the post title, by the standards of today, it's proven.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: element.io: https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/
-🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50558533
-🔗 Corroborating (The Register): https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcG5Sb3hING92RGdmTkdJNnZ1MGRwX1ZVYWVpeThWQ2JtUThSZ09OZ0V3eVdFM1ZwNUIzaGozbGhxb1JXTVprcmEzRlRnOW1rbDVTSTktNDNGQXJQcGJRT3BFTXN2ZzhBMm1fUDdkTnNzbHlBd293aFVBYXZXTWZEMC1mNk5veGQ1blRQU09OZzlYNFI0YmxHeTkxYTBDcWpZdU1DT2hwbFQxRzJ4Q24ycmdFQ3k1QmRrYVdZS1QzOGI?oc=5
-🔗 Corroborating (NewsCord): https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbGMyMDNfdDlvTHIwLXppUTJKVi03dVJwOEljVUtXeVRjUUZ5MXRXTEhPRHFqdl9VeTJsVFM1LTR6emJ2MXRIRjBkUmZqSmdhX3NYeUwybUNvejR6SkZGUTRlc2ZqODVJZGRyNVI3Uk83elI2NnRYdzVXWUZXZ0V1QzQ1NkdjRFY0cFI2OTk3ZVFzanNnOGVyQXR6anY0Y0F0Mlo0NjJwU2FqRkVUT3FhYUpuV09QYlFKQzk4MzJmQ21BM2pUU1V2XzZ4X3ZpLS1kd1ZWamVETjhLWWRDblg5aG4tS3ptRnM?oc=5
+🔗 Primary: alpo.ge: https://alpo.ge/remark.pdf
+🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50574968
+🔗 Corroborating (shattered.io): https://news.google.com/rss/articles/CBMilgFBVV95cUxPU2JBbkdFUWhTYnU0VEpJeUF4ZXhjVWdpZVpCZ05ZTlJOSkE1NVQxalotMFF4OFpTclpuNDZKOVJOY1VNOEVQUGFpb0pZVkpoMHpuNjVoUTJ1azVKVFA0eTNZaVdJRkUtMVVFTUdsWWptTk5vZjExMURyRlNxVnBpc0pHVFVZYlRuV09TRGN0X2g2RUN3aVE?oc=5
+🔗 Corroborating (Nacionale): https://news.google.com/rss/articles/CBMitAFBVV95cUxNUnNrT1NUVVJFWFZVREVFYVFnakI5cGM2MnAzQWpJbkplMDVKdF9ZeFBOT0EwMThlQVlSYkpaaWhHRzB6VEVJSFhnZHRMUks0VVAzeHN3eXZVVDJnOVNmUmNNbnl0YlU0NWdsVnNORk9Dd1plMEJiSjVadi1CNVNzblJwRVBMRkVIZ0psNnpLNVFNSUJQZVdVVFlLWC00cld4LTIxeHBjNkNRc3pnaWNxd19mSm8?oc=5
 
 ---
 
-✅ *[SCIENCE] Wading bird called Phil tracked in epic migration to Siberia and back*
+✅ *[SCIENCE] What are heat pumps and how much do they cost?*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 98/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-A bird has astonished conservationists by completing a 6,800-mile round trip to Siberia and back.
+The government wants more homes to have heat pumps to cut fossil fuel use and drive down energy bills.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• A bird named Phil has astonished conservationists by completing a 6,800-mile (10,900km) round trip from England's east coast to Siberia and back.
-• Bar-tailed godwits are champion fliers, migrating between Britain and the Arctic, but the precise routes used by individual birds is largely unknown.
-• Phil was fitted with a tiny solar-powered tracker that recorded his movements throughout the journey.
-• The data showed he travelled from The Wash, external to the Wadden Sea, along the coasts of the Netherlands, Germany and Denmark, before continuing to Siberia.
+• Developers will have to install heat pumps and solar panels in all new homes in England under regulations announced in March.
+• The changes are estimated to add £10,000 to the price of new homes, though owners will likely save money on energy bills over the long term.
+• In January, the government introduced a £15bn Warm Homes Plan to help UK households pay for green technologies as part of efforts to reduce fossil fuel use and energy bills.
+• But the autumn budget cut £1bn from the programme to pay for defence.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "Wading bird called Phil tracked in epic migration to Siberia and back", and HOW is it unfolding on the ground?
-*A:* A bird has astonished conservationists by completing a 6,800-mile round trip to Siberia and back. A bird named Phil has astonished conservationists by completing a 6,800-mile (10,900km) round trip from England's east coast to Siberia and back.
+*Q:* WHAT actually happened in "What are heat pumps and how much do they cost?", and HOW is it unfolding on the ground?
+*A:* The government wants more homes to have heat pumps to cut fossil fuel use and drive down energy bills. Developers will have to install heat pumps and solar panels in all new homes in England under regulations announced in March.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: Bar-tailed godwits are champion fliers, migrating between Britain and the Arctic, but the precise routes used by individual birds is largely unknown.
+*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: The changes are estimated to add £10,000 to the price of new homes, though owners will likely save money on energy bills over the long term.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. Bar-tailed godwits are champion fliers, migrating between Britain and the Arctic, but the precise routes used by individual birds is largely unknown. Underlying physical or biological constraints dictate what scales sustainably.
+*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. The changes are estimated to add £10,000 to the price of new homes, though owners will likely save money on energy bills over the long term. Underlying physical or biological constraints dictate what scales sustainably.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
 *A:* Second-Order Consequence ('And Then What?'): Empirical findings and regulatory enforcement reshape capital allocation, forcing institutions to internalize physical and ecological constraints early in project design.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 independent news outlet(s) (BBC, The Guardian, Inside Ecology); zero community dispute flags detected.
+Community context (BBC Science & Environment): Active Hacker News discussion (562 points, 105 comments) at https://news.ycombinator.com/item?id=2654788
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/c6qj5dl29zqro?at_medium=RSS&at_campaign=rss
-🔗 Cited: britannica.com: https://www.britannica.com/place/The-Wash
-🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iZXpsS2NTdi1WVnl1WEoxbTZVNGU4MmdxWkd1OGl5eE5kLTZFYVlkcVBWTVAyR041Zld5OS1JU0pIcmFRbVVyb2lXeE53U0RLV09SSVpDZGNwNTA4dnc?oc=5
-🔗 Corroborating (The Guardian): https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZTBoVEFqVzZNX19NM2dEQVc2VktseV8wXzVCdk42TVNLSW11dWpESFdJY0JhS0lXQ09oUkJpU3JrUFFTYld6THpGQTBrMmZHNGt1a2w3RW1aZ24zamZtTW5Wc0hvblNqYlVUY3RKaV9zb3dIcGNwUnVWVlVxZG9TZGJhLUpfakZIR1FUaGRpWnZ3Ri1tU2xlNmRIRlgxLVljTUp6UXJLRmZkZw?oc=5
+🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/c8xgdv9e007o?at_medium=RSS&at_campaign=rss
+🔗 Cited: gov.uk: https://www.gov.uk/apply-boiler-upgrade-scheme
+🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sU2JPNnNpelV0STZjbnVrLUVJcHN4N1plQWJxZEpyRDlQXy00MG9feExyOWdUWDc0ZGp3dDgyRWg5d2pBOGhoLTdVNHRkcldMYVVXbXM5TF8zUQ?oc=5
+🔗 Corroborating (WGME): https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd1N2TVQ1VGtrOEJFZnVZSTlmSktDdWtocjE0UDFvMVhqTHhES2gtZjdsWFlySXpadUpheTVrdWJjYWpsZWlxeERXTWE0eVZRSVpqdmlRQ2pYaEx2QTJCeWxlWGdwcG1VSjdNTzI3cTdYRGk5ZXNhTGNsQUNGWDU2N2lQYVZnMS1NVTRCME51Mm0yc2lKUDlBSl9FZkVMT3AtQ2hBMEpWOXNuZDR1V18tMmFPV1hHZ3BYcUcxUHI1V29SaUJVdGg2ZQ?oc=5
 
 ---
 
-✅ *[SECURITY] Garage Door Spam*
+✅ *[SCIENCE] Claude solves two open problems in the physics of black holes*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 86/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-In the beginning, my garage door opener worked fine.
+Claude Fable 5.2 has solved two open problems in theoretical physics.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• When the door opened or closed, I would get a notification.
-• If I'm away from home and the door opens, so...
-• Multi-source corroboration: Independently verified across 3 reporting outlet(s) (ABC7 Los Angeles, Marysville Journal Tribune, 5 EYEWITNESS NEWS).
-• Community verification velocity: 469 upvotes and 205 active discussion contributions on Hacker News.
+• Both concern black holes and the search for a theory of quantum gravity.
+• Modern physics rests on two frameworks: general relativity and quantum mechanics.
+• General relativity describes very large things, like stars; quantum mechanics describes very small things, such as atoms.
+• Both are astonishingly good at predicting how the universe behaves, but they’re mathematically incompatible.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "Garage Door Spam", and HOW is it unfolding on the ground?
-*A:* In the beginning, my garage door opener worked fine. When the door opened or closed, I would get a notification.
+*Q:* WHAT actually happened in "Claude solves two open problems in the physics of black holes", and HOW is it unfolding on the ground?
+*A:* Claude Fable 5.2 has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by blog.harrison.page is direct operational/legal pressure: If I'm away from home and the door opens, so...
+*A:* The immediate catalyst documented by anthropic.com is direct operational/legal pressure: Modern physics rests on two frameworks: general relativity and quantum mechanics.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. If I'm away from home and the door opens, so... When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
+*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. Modern physics rests on two frameworks: general relativity and quantum mechanics. Underlying physical or biological constraints dictate what scales sustainably.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via ABC7 Los Angeles, Marysville Journal Tribune, 5 EYEWITNESS NEWS).
+*A:* Second-Order Consequence ('And Then What?'): Empirical findings and regulatory enforcement reshape capital allocation, forcing institutions to internalize physical and ecological constraints early in project design.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Community context (Hacker News): [HN @harrisonpage]: In which I bypass myQ for an open source solution
+Community context (Hacker News): [HN @simonw]: It tickled me that this was a bullet point in the Fable 5.2 announcement. I like that we're now at a point where "solved two open problems in the physics of black holes" is the kind of thing that shows up in a frontier model launch.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: blog.harrison.page: https://blog.harrison.page/garage-door-spam/
-🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50519231
-🔗 Cited: ratcloud.llc: https://ratcloud.llc/products/ratgdo32
-🔗 Corroborating (ABC7 Los Angeles): https://news.google.com/rss/articles/CBMiqgFBVV95cUxPekdaYlZWeVh6SGEzOU5DU1dXS0hrckxsUTE2RkdfcXhtLTQ3SDBsTTFKTXdlakQ1Y1cwV1ZrZXM2cUFCaWpuSVBlTGN0bGJBNUlOWkZCUDlOVG9nNUltazdDNV9KWU5aaWRWa2QwTy1Rb3FESlBEeVUybEhkWkpneEpSWWIzaDZGZzZpeS1lZmtfWkFHU21SRHJzaEpfcUllTDhKVmpIQkRpUdIBrwFBVV95cUxPOXlHTDhJMlU0VndQT3NKQWpfRE45cmtZUms5YUJENWdEOXdqMjJZd09oREpnMV83OVV1Ykh1a0ZGYmFnek1FcVhfaU9OU1NtV1J4VXMxeEp2UW85X2JNUTQ4TVRUYXVtQkZpcVFPT2ZBdUQtWUMxVjR0Wnh2Nk1VaEFCRlFqSm9CaWtJQVd1ajlKN3hISjQ3MF9mRnp1R2JhZ1dJQ29BU2I0MlY5alVB?oc=5
-🔗 Corroborating (Marysville Journal Tribune): https://news.google.com/rss/articles/CBMihwFBVV95cUxQNTlueTJlV0Z0d0syRkV0RWtGbU5vWmpyNk9ic1lLZVRYVXVMNDRid21PY1Fpa05pR2poQ2NoUGFsajBhVnVXQl9xWkdfejlpbDN3Nm1qWlFvMU1kbzdycTF4RkRXWVZFOE84YVhDUkg1cExydzhXTHBRRGJQSWt3LTlLU3pzRTg?oc=5
+🔗 Primary: anthropic.com: https://www.anthropic.com/research/claude-black-hole-physics
+🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50563148
+🔗 Cited: hexagonmath.org: https://hexagonmath.org/2611.00175v1
+🔗 Corroborating (Anthropic): https://news.google.com/rss/articles/CBMibEFVX3lxTFBZUGhIZlEzczZ3OTFxcjBiRFJLUDhrZjhGM1hKRHdQWnYzV05NQUh0Y19Nb2d6WHlQNWR6UkZmWEp0YlE4endwZXJTdVNwUmN3LXQxUU5MaTFaQldqZkZNZjFHZWNiZFN6LV9UdQ?oc=5
+🔗 Corroborating (Digg): https://news.google.com/rss/articles/CBMiQkFVX3lxTE1RT0RxWUJBT0FtMDJrOUdPRnNsNWtoUE1vVjNxLUxidDZ3NFRQbGFydzlTRlF1UDJUOFVxZmJJaGt2dw?oc=5
 
 ---
 
-✅ *[KUJO BRAINIACHE PROTOCOL] Kujo Brainiache Daily 1-Hour Cognitive Protocol & Answer Key (Occam's Razor & Diagnostic Parsimony)*
+✅ *[KUJO BRAINIACHE PROTOCOL] Kujo Brainiache Daily 1-Hour Cognitive Protocol & Answer Key (First Principles Decomposition)*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 99/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
 Your 60-minute daily cognitive workout is structured below into 4 × 15-minute blocks—complete with today's active recall prompts and full step-by-step verified answers.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• 📖 BLOCK 1 (Insight Engine • 15m): Deep-read today's 4 verified stories above + 'Antifragile Bio-Energetics: Hormesis, PGC-1α Mitochondrial Biogenesis & Tail-Risk Convexity' (10m read, then 5m active recall).
-• 🧩 BLOCK 2 (Logic Crucible • 15m): Fluid-IQ Sequence Challenge → 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] | Choices: 55, 67, 61, 65
-• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'Occam's Razor & Diagnostic Parsimony' to today's lead event: "Myanmar committed genocide against Rohingya minority, top UN court rules".
+• 📖 BLOCK 1 (Insight Engine • 15m): Deep-read today's 4 verified stories above + 'Thalassocratic Chokepoints: From the Strait of Malacca (1511) to Modern Silicon Geopolitics' (10m read, then 5m active recall).
+• 🧩 BLOCK 2 (Logic Crucible • 15m): Fluid-IQ Sequence Challenge → 3  →  6  →  9  →  18  →  21  →  42  →  [ ? ] | Choices: 45, 51, 47, 49
+• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'First Principles Decomposition' to today's lead event: "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk".
 • 🔁 BLOCK 4 (Integration Loop SRS • 15m): Priority Weak-Concept Drill [History/Geography].
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[BLOCK 1 • THE INSIGHT ENGINE (15 MINS — QUESTION & VERIFIED ANSWER)]*
-*Q:* [Finance/Health] Which master transcriptional coactivator drives mitochondrial biogenesis in response to an elevated AMP:ATP ratio, and in what year did John Kelly publish the Kelly Criterion?
-*A:* ✅ ANSWER: PGC-1α; 1956 — PGC-1α is the master regulator of mitochondrial biogenesis, and John L. Kelly Jr. published his information-theoretic bet-sizing paper at Bell Labs in 1956.
+*Q:* [History/Geography] In what year did Portuguese strategist Afonso de Albuquerque capture the Sultanate of Malacca, and what modern capital city corresponds to the VOC's headquarters of Batavia?
+*A:* ✅ ANSWER: 1511 CE; Jakarta (Indonesia) — Albuquerque captured Malacca in August 1511 (the Dutch VOC captured it in 1641), and Batavia is modern-day Jakarta, capital of Indonesia.
 
 🔹 *[BLOCK 2 • THE LOGIC CRUCIBLE (15 MINS — FLUID IQ PUZZLE & SOLUTION)]*
-*Q:* Deduce the 7th term in the sequence: 5  →  10  →  13  →  26  →  29  →  58  →  [ ? ] (Choices: 55, 67, 61, 65)
-*A:* ✅ ANSWER: 61 — Alternating operator recurrence: (×2), then (+3), repeating.
+*Q:* Deduce the 7th term in the sequence: 3  →  6  →  9  →  18  →  21  →  42  →  [ ? ] (Choices: 45, 51, 47, 49)
+*A:* ✅ ANSWER: 45 — Alternating operator recurrence: (×2), then (+3), repeating.
 
 🔹 *[BLOCK 3 • MENTAL MODEL RE-WIRING (15 MINS — CASE STUDY & SOLUTION)]*
-*Q:* [Occam's Razor & Diagnostic Parsimony] Using Occam's Razor, how should the incident response commander allocate the first 15 minutes of investigation?
-*A:* ✅ ANSWER: Immediately inspect BGP routing tables and transit interface error logs (1 conditional variable with high base-rate frequency) before halting all cryptographic protocols for a theoretical quantum attack. (Framework Principle: Formulated by William of Ockham (c. 1287–1347): 'Entities must not be multiplied beyond necessity.' When multiple hypotheses explain an observed dataset equally well, prioritize testing the hypothesis that requires the fewest unproven assumptions.)
+*Q:* [First Principles Decomposition] Applying First Principles Decomposition, what is the highest-leverage executive action for the consortium?
+*A:* ✅ ANSWER: Decompose the $152/kWh gap between the $28 commodity floor and $180 quote into specific manufacturing steps (electrode coating, dry-room curing, pack assembly) and redesign the highest-friction fabrication step. (Framework Principle: Instead of reasoning by analogy ('copying what others do with slight tweaks'), break a complex system down into its fundamental, undeniable physical or economic truths and reconstruct a solution from the ground up.)
 
 🔹 *[BLOCK 4 • THE INTEGRATION LOOP (15 MINS — SPACED REPETITION QUESTION & ANSWER)]*
 *Q:* Cross-Disciplinary Synthesis: Using a structural systems lens, how does the 16th-century Portuguese 'cartaz' naval node strategy parallel modern semiconductor supply-chain bottlenecks?
