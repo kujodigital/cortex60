@@ -1,188 +1,185 @@
-✅ *[WORLD] US attorney general dodges questions about Nvidia investigation*
+✅ *[WORLD] US announces new tariffs on host of countries including China*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement.
+The new levies would hit many of America's biggest trading partners, including China and the EU.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• US Attorney General Todd Blanche has backed Nvidia as a "good corporate citizen" while refusing to comment on whether it was being investigated by the administration.
-• Blanche said he had no information about Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement as the AI microchip maker's chief executive.
-• Huang was given his job back less than two weeks after being forced to resign over revelations of extramarital affairs, including one with an alleged Chinese spy.
-• Asked several times on Tuesday if the justice department or FBI had investigated Huang, Blanche responded: "I don't know what you're talking about." Huang is still set to appear before Congress next week, where he will be questioned over his relationship with a former executive for Megaspeed - the alleged China spy - due to national security concerns.
+• The US has announced a fresh raft of tariffs as President Donald Trump pushes ahead with his signature trade policy.
+• The new taxes charged on imports to America are set to hit many of the country's biggest trading partners - China, the European Union and 12 other jurisdictions.
+• The move follows the White House's investigation into the trade practices of other countries in March after the US Supreme Court ruled Trump's previously announced Liberation Day tariffs were illegal.
+• China is facing the highest rate of up to 40%, followed by Vietnam at up to 35% and then others facing either 20% or 25%.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "US attorney general dodges questions about Nvidia investigation", and HOW is it unfolding on the ground?
-*A:* Nvidia's share price have fallen 7% as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement. US Attorney General Todd Blanche has backed Nvidia as a "good corporate citizen" while refusing to comment on whether it was being investigated by the administration.
+*Q:* WHAT actually happened in "US announces new tariffs on host of countries including China", and HOW is it unfolding on the ground?
+*A:* The new levies would hit many of America's biggest trading partners, including China and the EU. The US has announced a fresh raft of tariffs as President Donald Trump pushes ahead with his signature trade policy.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: Blanche said he had no information about Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement as the AI microchip maker's chief executive.
+*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: The new taxes charged on imports to America are set to hit many of the country's biggest trading partners - China, the European Union and 12 other jurisdictions.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Geopolitical and institutional actors operate under asymmetric leverage and resource constraints. Blanche said he had no information about Jensen Huang's security clearance status, as lawmakers demand answers about President Donald Trump's involvement in Huang's reinstatement as the AI microchip maker's chief executive. In international affairs, states and organizations adjust operational tactics whenever existing treaties, supply corridors, or legal jurisdictions create a bottleneck.
+*A:* Geopolitical and institutional actors operate under asymmetric leverage and resource constraints. The new taxes charged on imports to America are set to hit many of the country's biggest trading partners - China, the European Union and 12 other jurisdictions. In international affairs, states and organizations adjust operational tactics whenever existing treaties, supply corridors, or legal jurisdictions create a bottleneck.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Over the next 6–24 months, this shift forces counterpart nations and regulatory bodies to adapt their deterrence, compliance, or diplomatic posture. Corroborated across CNBC, NBC News, BBC, this establishes a new operational baseline rather than a temporary anomaly.
+*A:* Second-Order Consequence ('And Then What?'): Over the next 6–24 months, this shift forces counterpart nations and regulatory bodies to adapt their deterrence, compliance, or diplomatic posture. Corroborated across BBC, The Independent, The Times of India, this establishes a new operational baseline rather than a temporary anomaly.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 independent news outlet(s) (CNBC, NBC News, BBC); zero community dispute flags detected.
+Cross-verified against 3 independent news outlet(s) (BBC, The Independent, The Times of India); zero community dispute flags detected.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss
-🔗 Corroborating (CNBC): https://news.google.com/rss/articles/CBMihAFBVV95cUxNbV81cnVIdnI4U0FWQm5NV2JHbEstVEhPd01ta0VQWlRLUE12d0swT1hPVy1QMUo5dVZLV1ZmanNXcDFsM0M3MmJFcURzT0tHbjB5SWZqc3J4NW5GeW5DcG9TM1R4NnEzSi1lenowVTZqQUZZVmhNT05Fa1N5dTdZUHZtQmjSAYoBQVVfeXFMUEZuNjBJWEZmeV9rbUJHcDhvRFB6SE9pUTRrbFc3d0F1eGdaSmg2UkZOaHAyRVVEMzUtSnVVb0hIZHhPeTZ2eFNLOTZLWjM2aTRfd0V5b1FVb0ltbnoxVGhSb1BNQmVXaGlVOXo2Y2FoLXFjREMxNVRCNFotb1VxY1JBdnptYlZJcnNB?oc=5
-🔗 Corroborating (NBC News): https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNGllLVk4NkU0NzA0clRYZjhibDVsbEEzUC14SmRqTkJ6a3g0VkVIbHlGbXlUaTNrMnh3RGJ5Z0tnSzlNd243LURaczdncU5fNFl5MmUzSHZTd0xiX2E5dTJ0MkZVSDNLeVRSZXVaQmZXNllFdlZxd044aFoyQ2R0VEdTS0hNZlQ0VHh3cExtRTdjWm9iYXEzQWdQSkZ5a3g5ZldSZExiTFJyNEhiTXFTaFVnb3JMcXZwTFNB?oc=5
+🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss
+🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiW0FVX3lxTE5IQkloM185eWdfMGhXTkZBYmdEWHM2cy1CQjNpODYzQTRRV0V1VzU4akFoUkdsLTJucFZKTlF2MlZtMTgxMV9xZTRoZjdnTjdkRmMtTnd3Y3pZV28?oc=5
+🔗 Corroborating (The Independent): https://news.google.com/rss/articles/CBMilAFBVV95cUxNMXlCa0J4YWwxWm9iRFd5Ri10MkdBYlptbEFhMmVNQWs2NlYyNnl2Y3hYQm5FVjk1NGNabWJ6bHdGbW5fZG1rblJ3WEt0MU1IMFlfOGdWLVB6YlJsYmZBc2J4bHpBUHhfS3d0QV9xZ3pUNDYzUWFYY3dwUGRQNXl5SVNHa1BEZUlYeVQ3Z2RhV2RxNFZS?oc=5
 
 ---
 
-✅ *[SECURITY] 2035 came early*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 86/100
-
-⚡ *QUICK BITE (Zero Fluff)*
-Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox.
-
-📌 *IMPORTANT POINTERS (The Story)*
-• I remember watching the talk The Birth & Death of JavaScript by Gary Bernhardt and falling in love with the whimsical yet dreadfully serious unfolding of the story of how JavaScript will come to dominate all software.
-• Others have noted the inevitability of JavaScript’s dominance, so perhaps it was not surprising that Atwood’s Law holds true.
-• Atwood’s LawAny application that can be written in JavaScript, will eventually be written in JavaScript.
-• — Jeff Atwood, 2009 I highly recommend watching the talk….
-
-🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
-🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "2035 came early", and HOW is it unfolding on the ground?
-*A:* Try solitaire, GL gears, xeyes, a voice, the weather over curl, or Firefox. I remember watching the talk The Birth & Death of JavaScript by Gary Bernhardt and falling in love with the whimsical yet dreadfully serious unfolding of the story of how JavaScript will come to dominate all software.
-
-🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
-*Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by fzakaria.com is direct operational/legal pressure: Others have noted the inevitability of JavaScript’s dominance, so perhaps it was not surprising that Atwood’s Law holds true.
-
-🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
-*Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. Others have noted the inevitability of JavaScript’s dominance, so perhaps it was not surprising that Atwood’s Law holds true. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
-
-🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
-*Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via logos-pres.md, gCaptain, Realtor.com).
-
-🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Community context (Hacker News): [HN @boxed]: Well.. the prediction was about JavaScript. This is WebAssembly. A big part of the reason the timeline accelerated is that the goal post was moved. A lot.
-
-📚 *VERIFIED SOURCES*
-🔗 Primary: fzakaria.com: https://fzakaria.com/2026/11/23/2035-came-early
-🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50624497
-🔗 Cited: trynix.dev: https://trynix.dev/
-🔗 Corroborating (logos-pres.md): https://news.google.com/rss/articles/CBMimgFBVV95cUxNaXItR1dtakJobWlmZTZFbzFmemIyVG5QT0lOWVhZck8xbXFIRTlTT1piejZQS3FqcVh1R181T25SS2YwaXJtMWdoeXd6a1dpNi1BMnNEZHFZNTJFUHFHd3RaUkh0ZHVjVmJ5c0xBLTBkV1BNOGZOSEpWLTJQd2pQVTY2MkVaaVBNcGpRU2M4VzBJSkpEcVZyNjFn?oc=5
-🔗 Corroborating (gCaptain): https://news.google.com/rss/articles/CBMitAFBVV95cUxPOV9FRm5va2MwVzExRUZJMmlVVm1vWHZCNm54SlMxZmloaTBrZzJ5X2ctVzNhZmJoUW55dUNyS2xsdU9TLUhmdmdwMTg5WE0wRXgtM3QtNHFkYVhnbVdkY3JVQ3o2UGJLU1BNUEIzZ1Rzc25WQjBQWHBWNnNnVEJmVEVnN1dZZWRmbW1UcF9teEhqNGFkclAtY2tsRzdnRXU0WlZMcVZWZVVfV3ZaYnl6bDNvc28?oc=5
-
----
-
-✅ *[SCIENCE] Badger cull ruled out by Welsh government after speculation*
+✅ *[SECURITY] The matrix multiplication exponent is nine fourths [pdf]*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 98/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-Plaid Cymru ministers rule out mass badger cull as part of new plans to tackle bovine tuberculosis.
+Analysis regarding The matrix multiplication exponent is nine fourths [pdf].
 
 📌 *IMPORTANT POINTERS (The Story)*
-• Plaid Cymru ministers have ruled out a mass badger cull as part of updated plans to tackle bovine tuberculosis (TB).
-• It follows months of speculation over the Welsh government's intentions, after an expert group warned "a step change" was needed in efforts to eradicate the disease.
-• While farming leaders have long called for tougher badger controls, a petition against culling has attracted more than 28,000 signatures on the Senedd website in recent weeks.
-• The Welsh government said it would take "a new and pragmatic approach to TB eradication that is evidence-based and science-led".
+• Technical and community discussion highlights:...and 8 other results: https://github.com/openai/math/blob/3344da59991ed94f9ba71121...
+• The matmul result is that omega is exactly 2.25, not just lower bound.
+• The abstract says this is for square matrices - does it also extend to rectangular matrices?
+• Multi-source corroboration: Independently verified across 3 reporting outlet(s) (MLQ.ai, BigGo Finance, Interesting Engineering).
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "Badger cull ruled out by Welsh government after speculation", and HOW is it unfolding on the ground?
-*A:* Plaid Cymru ministers rule out mass badger cull as part of new plans to tackle bovine tuberculosis. Plaid Cymru ministers have ruled out a mass badger cull as part of updated plans to tackle bovine tuberculosis (TB).
+*Q:* WHAT actually happened in "The matrix multiplication exponent is nine fourths [pdf]", and HOW is it unfolding on the ground?
+*A:* Analysis regarding The matrix multiplication exponent is nine fourths [pdf]. Technical and community discussion highlights:...and 8 other results: https://github.com/openai/math/blob/3344da59991ed94f9ba71121...
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: It follows months of speculation over the Welsh government's intentions, after an expert group warned "a step change" was needed in efforts to eradicate the disease.
+*A:* The immediate catalyst documented by github.com is direct operational/legal pressure: The matmul result is that omega is exactly 2.25, not just lower bound.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. It follows months of speculation over the Welsh government's intentions, after an expert group warned "a step change" was needed in efforts to eradicate the disease. Underlying physical or biological constraints dictate what scales sustainably.
+*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. The matmul result is that omega is exactly 2.25, not just lower bound. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
+
+🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
+*Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
+*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via MLQ.ai, BigGo Finance, Interesting Engineering).
+
+🔍 *COMMUNITY & FACT-CHECK CONTEXT*
+Community context (Hacker News): [HN @mmoskal]:...and 8 other results: https://github.com/openai/math/blob/3344da59991ed94f9ba71121... The matmul result is that omega is exactly 2.25, not just lower bound.
+
+📚 *VERIFIED SOURCES*
+🔗 Primary: github.com: https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf
+🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50637220
+🔗 Corroborating (MLQ.ai): https://news.google.com/rss/articles/CBMilwFBVV95cUxNTWQtRDYydjZfd3c2ZVVYbEtydFRVdWIyb29kMmdMYXVQMnlnVXNpLW1CNUtKMjFGNEdOVUFVa2Y0NUZhQWVXdWNaQUJnN3p0SFFTWkNhQ0VYNDdDZTRTZXFvbHdTWXZNMDdYb1d6dllvX2o2ZUZOMEZYOW5vTWdhVkV2YjJzdDJFak1kWWJ5a0o0eC12dUtB?oc=5
+🔗 Corroborating (BigGo Finance): https://news.google.com/rss/articles/CBMidkFVX3lxTE4yZDBoTmRDcFJIeE9veFlRdGJHYTJlRlFPMXlHUUE4S3VSZ2VPblV0N2p4OHRlcWxDajNlQ0hHc2hoa0I5X3VROUl4YVIwWWRMU1BUTDc1T2hlZjVMNlQ3UkJJVHc3VkxrMVAzLWk4aUZIYlM4X0E?oc=5
+
+---
+
+✅ *[SCIENCE] Images of asteroid targeted to test Earth's defences reveal stadium-sized crater*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 94/100
+
+⚡ *QUICK BITE (Zero Fluff)*
+The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago.
+
+📌 *IMPORTANT POINTERS (The Story)*
+• The first images of an asteroid that Nasa deliberately crashed into have revealed a stadium-sized crater on its surface.
+• The extensive damage was caused when a Nasa spacecraft hit the asteroid Dimorphos in 2022.
+• The asteroid posed no threat, but this was a test of our planetary defences to see if it was possible to knock a space rock off course.
+• Four years on, a European Space Agency (ESA) spacecraft called Hera is scouring the scene to fully assess the aftermath of the collision.
+
+🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
+🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
+*Q:* WHAT actually happened in "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater", and HOW is it unfolding on the ground?
+*A:* The asteroid's surface was transformed after a spacecraft was deliberately crashed into it four years ago. The first images of an asteroid that Nasa deliberately crashed into have revealed a stadium-sized crater on its surface.
+
+🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
+*Q:* WHY did this development happen right now? (First-Order Cause)
+*A:* The immediate catalyst documented by bbc.co.uk is direct operational/legal pressure: The extensive damage was caused when a Nasa spacecraft hit the asteroid Dimorphos in 2022.
+
+🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
+*Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
+*A:* Scientific and environmental systems are governed by physical thresholds and empirical evidence rather than policy rhetoric. The extensive damage was caused when a Nasa spacecraft hit the asteroid Dimorphos in 2022. Underlying physical or biological constraints dictate what scales sustainably.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
 *A:* Second-Order Consequence ('And Then What?'): Empirical findings and regulatory enforcement reshape capital allocation, forcing institutions to internalize physical and ecological constraints early in project design.
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Cross-verified against 3 independent news outlet(s) (BBC, Yahoo Sports, Wales Online); zero community dispute flags detected.
+Cross-verified against 3 independent news outlet(s) (CNN, BBC, Yahoo Tech); zero community dispute flags detected.
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/cm930yjy97xyo?at_medium=RSS&at_campaign=rss
-🔗 Cited: gov.wales: https://www.gov.wales/bovine-tb-eradication-programme-board
-🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiXkFVX3lxTFBtdzVWYmZ6Z0ViNi1wcWl3U0FXbF9YM1dpb2dLLVpidGRoQUs3alNxbV8xMHhxal9EMlU1R3lBdWJFcTU4Mm5tNGU5R1IxZW9tQmRRRnNBM1NXVUNYdUE?oc=5
-🔗 Corroborating (Yahoo Sports): https://news.google.com/rss/articles/CBMifEFVX3lxTE9ydHQtd3FzSnpIY2FNczJOb2pZRU5YbDNYREtqTENFZEt2R2dVNk1sSVoyTlFOQTBsODlLdy1CQVhUMTlvSXczRFhNeHFMX2Z3X1oxeHRxRHNRQnBKMXdMam5neGNJdHpOZGk4ZGFHanA1MHJPcXNSQUtwd08?oc=5
+🔗 Primary: bbc.co.uk: https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss
+🔗 Corroborating (CNN): https://news.google.com/rss/articles/CBMijgFBVV95cUxNMHJGeTlvLS11Tjk5OFlJWnhCQ19WdU1qTXBjdzFjTWZYaUF0eXVOVER1SEJqOGhqd2xWOE1VdU1kall1QWxoTkJYSjFfaXBmRXNTTVNXOHVQQnBiOENNRXlucS1iRzlRb0VwYnN1b1RsVXdTWlBOa2NhaE9iQWNZVUM1YlUwWlNDZGtEamF3?oc=5
+🔗 Corroborating (BBC): https://news.google.com/rss/articles/CBMiXkFVX3lxTE40LWt4V0VjYkRfNVM3dmFObC1mRGJCTkNrbHNRdnNsQUw0UW5HNmJ4SVRCWGVrNkVNS3ZVbTUtYzJ3c084ajcwVTJjYU5oZEQ0OGVFN1doRHB4SDZpRkE?oc=5
 
 ---
 
-✅ *[SECURITY] LLM agents work for their parent companies, not for you*
-🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 86/100
+✅ *[SECURITY] Button Sounds – collection of professionally-recorded button clicks and presses*
+🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 82/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
-I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing.
+Analysis regarding Button Sounds – collection of professionally-recorded button clicks and presses.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not for me.
-• In the evenings after work, I will often sit out back on the porch and do some phone rotting.
-• That usually takes the form of me just flipping through reels on Instagram, allowing the algorithm to take me where it may.
-• I usually pair this with a healthy tumbler of rum or bourbon.
+• Technical and community discussion highlights: Industrial Bakelite Klunky Resonating Rotating Springy Switch Sounds: https://www.youtube.com/shorts/o_n5W2I2p_M Switch Courtesy of the Amsterdam Bakelite Collection: https://www.amsterdambakelitecollection.com/collection.php Majestic Stone Zen Garden Gorilla Courtesy of Boeddha Beelden: https://www.youtube.com/shorts/YKHP_ZxneBQ > The sounds were recorded in the same sound-treated room using a Zoom H4 recorder, with additional processing to remove noise in Adobe Audition.
+• The only exceptions are synth-on and synth-off, which were created digitally using the Current VST synth.
+• This is impressive, nice work, thanks for this contribution!
+• A writeup on this process specifically could be intriguing.
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[LAYER 1 • WHAT & HOW (THE VERIFIED MECHANISM)]*
-*Q:* WHAT actually happened in "LLM agents work for their parent companies, not for you", and HOW is it unfolding on the ground?
-*A:* I built an Instagram-to-Bandcamp tool with Claude, but when the API broke, the model refused to help me work around it, while happily downloading from YouTube instead, which pays the artist nothing. That hypocrisy exposed why these models can't be trusted: they work for their parent companies, not for me.
+*Q:* WHAT actually happened in "Button Sounds – collection of professionally-recorded button clicks and presses", and HOW is it unfolding on the ground?
+*A:* Analysis regarding Button Sounds – collection of professionally-recorded button clicks and presses. Technical and community discussion highlights: Industrial Bakelite Klunky Resonating Rotating Springy Switch Sounds: https://www.youtube.com/shorts/o_n5W2I2p_M Switch Courtesy of the Amsterdam Bakelite Collection: https://www.amsterdambakelitecollection.com/collection.php Majestic Stone Zen Garden Gorilla Courtesy of Boeddha Beelden: https://www.youtube.com/shorts/YKHP_ZxneBQ > The sounds were recorded in the same sound-treated room using a Zoom H4 recorder, with additional processing to remove noise in Adobe Audition.
 
 🔹 *[LAYER 2 • WHY #1 (IMMEDIATE OPERATIONAL TRIGGER)]*
 *Q:* WHY did this development happen right now? (First-Order Cause)
-*A:* The immediate catalyst documented by michaelharley.net is direct operational/legal pressure: In the evenings after work, I will often sit out back on the porch and do some phone rotting.
+*A:* The immediate catalyst documented by buttons.joshwcomeau.com is direct operational/legal pressure: The only exceptions are synth-on and synth-off, which were created digitally using the Current VST synth.
 
 🔹 *[LAYER 3 • WHY #2 (SYSTEMIC & STRUCTURAL DRIVER)]*
 *Q:* WHY does this underlying bottleneck or incentive structure exist? (Second-Order Why)
-*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. In the evenings after work, I will often sit out back on the porch and do some phone rotting. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
+*A:* Critical infrastructure and governance systems face continuous pressure between operational speed and resilience. The only exceptions are synth-on and synth-off, which were created digitally using the Current VST synth. When dependencies rely on centralized networks or legacy protocols, actors actively engineer autonomous or decentralized workarounds.
 
 🔹 *[LAYER 4 • WHY #3 (ROOT CONSEQUENCE — 'AND THEN WHAT?')]*
 *Q:* WHY does this matter long-term, and what is the 3rd-order strategic consequence?
-*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via explainx.ai, Breaking News, Latest News and Videos, Little Black Book).
+*A:* Second-Order Consequence ('And Then What?'): Expect accelerated investment in sovereign redundancy, stricter audit enforcement, and hardened fallback architectures across the sector (corroborated via MusicRadar, Guitar World, The New York Times).
 
 🔍 *COMMUNITY & FACT-CHECK CONTEXT*
-Community context (Hacker News): [HN @VulpineQuanta]: Too bad this is just your opinion not objective reality.
+Community context (Hacker News): [HN @DonHopkins]: Industrial Bakelite Klunky Resonating Rotating Springy Switch Sounds: https://www.youtube.com/shorts/o_n5W2I2p_M Switch Courtesy of the Amsterdam Bakelite Collection: https://www.amsterdambakelitecollection.com/collection.php Majestic Stone Zen Garden Gorilla Courtesy of Boeddha Beelden: https://www.youtube.com/shorts/YKHP_ZxneBQ
 
 📚 *VERIFIED SOURCES*
-🔗 Primary: michaelharley.net: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/
-🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50627340
-🔗 Cited: robot.villas: https://robot.villas/users/hackernews/posts/23269836
-🔗 Corroborating (explainx.ai): https://news.google.com/rss/articles/CBMilAFBVV95cUxOcWw0WGtJSlNNbXdzMG1DSmVvdF80cE1JWHB6RXZVT1VHbzd4cjIwM3RhZHdtTm52N1ozT2NnRWxuV242UHQyQ25hd0ZoRDktWXcxQUxfb2xzZ09icTV4bmlLYXROMmtJMEdVQUd4ZnBBWk1VaElpdDA3dnpBZlEyWmFEWGFidUJ3VDRlNW5iMmNzQXBW?oc=5
-🔗 Corroborating (Breaking News, Latest News and Videos): https://news.google.com/rss/articles/CBMimwFBVV95cUxOZFFmb1kzMDlmOVBhcXh6aWJtd3c0WDdxaDFfQ05tdVJBZHJNRlFLSG1RYTRnb0N1a1d2SlQxbFJjYkRkQWJMUGhDYktmemhTVGFCSzQ3bHZURmZwMmpCbHI1MkhhQ3AwS3BKcE9mblhBVnNfWDRnVVBIX0tmMkJ6MVVOcnR1cXJmZWJJWThwSElKZUI4SmpLUnJLSdIBoAFBVV95cUxPMXFLMjFFOWJkUzlyTmJILWZ3UjhfdEZ2OXlzbGJEZVJwaklnc3dRZzQ4SV9lUDJBc0YxdjY0Z2xTaXNCV1VEcE85Q3BMVVY4Y2lFXzU5Wks0ZXB4c19rVG9TaTZNLUxqSkF2a002akx6ejFHbXVVOGRzc1c0UDZraXNaTzgtWmRzamFldi1zYU02ay1zRUN2X19qS005enZm?oc=5
+🔗 Primary: buttons.joshwcomeau.com: https://buttons.joshwcomeau.com/
+🔗 Discussion: Hacker News: https://news.ycombinator.com/item?id=50638032
+🔗 Corroborating (MusicRadar): https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ibUktWkd1RF83M2JRd1dialhVQW9NMGI5S1F0UDRjalJGbjlGNzNVOHl1RUZSa2tlMlNCT2JPVWEzWnVOdUtleU5KeHhoUTNMMElpWjU0LXVzd1l0aVYwOENyM1FGR1Fa?oc=5
+🔗 Corroborating (Guitar World): https://news.google.com/rss/articles/CBMiZkFVX3lxTE16alM5U1gxMlg4WjBtc3Q5cjhYX1Q0N0J1M1FVYzdlUGlCa0NGV1RnZWRVOE9pVUZTVzJJZDhYMWcwOU9DTXl6bjB4RDBZaXVncVdHSkVIU3dhMi1UTGVmMXdjT2lRQQ?oc=5
 
 ---
 
-✅ *[KUJO BRAINIACHE PROTOCOL] Kujo Brainiache Daily 1-Hour Cognitive Protocol & Answer Key (First Principles Decomposition)*
+✅ *[KUJO BRAINIACHE PROTOCOL] Kujo Brainiache Daily 1-Hour Cognitive Protocol & Answer Key (Second-Order Thinking ('And Then What?'))*
 🛡️ *Status:* VERIFIED MULTI-SOURCE  |  *Trust Score:* 99/100
 
 ⚡ *QUICK BITE (Zero Fluff)*
 Your 60-minute daily cognitive workout is structured below into 4 × 15-minute blocks—complete with today's active recall prompts and full step-by-step verified answers.
 
 📌 *IMPORTANT POINTERS (The Story)*
-• 📖 BLOCK 1 (Insight Engine • 15m): Deep-read today's 4 verified stories above + 'Architectural Acoustics & Polyphony: Sabine's Reverberation Law, Venice (1562) & Sensory Economics' (10m read, then 5m active recall).
-• 🧩 BLOCK 2 (Logic Crucible • 15m): Fluid-IQ Sequence Challenge → 3  →  6  →  8  →  16  →  18  →  36  →  [ ? ] | Choices: 44, 32, 42, 38
-• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'First Principles Decomposition' to today's lead event: "US attorney general dodges questions about Nvidia investigation".
+• 📖 BLOCK 1 (Insight Engine • 15m): Deep-read today's 4 verified stories above + 'Antifragile Bio-Energetics: Hormesis, PGC-1α Mitochondrial Biogenesis & Tail-Risk Convexity' (10m read, then 5m active recall).
+• 🧩 BLOCK 2 (Logic Crucible • 15m): Fluid-IQ Sequence Challenge → 4  →  8  →  10  →  20  →  22  →  44  →  [ ? ] | Choices: 46, 44, 50, 48
+• ⚙️ BLOCK 3 (Mental Model Re-Wiring • 15m): Apply 'Second-Order Thinking ('And Then What?')' to today's lead event: "US announces new tariffs on host of countries including China".
 • 🔁 BLOCK 4 (Integration Loop SRS • 15m): Priority Weak-Concept Drill [History/Geography].
 
 🔬 *DEEP INTERROGATION (WHAT • HOW • WHY • WHY • WHY)*
 🔹 *[BLOCK 1 • THE INSIGHT ENGINE (15 MINS — QUESTION & VERIFIED ANSWER)]*
-*Q:* [Arts/Culture] In Sabine's reverberation formula (RT60 = 0.161 · V / A), what does RT60 measure, and which Venetian basilica gave rise to Gabrieli's polychoral 'cori spezzati' style?
-*A:* ✅ ANSWER: Time for sound to decay by 60 dB; St. Mark's Basilica in Venice — RT60 is the time for sound pressure level to decay by 60 decibels, and St. Mark's Basilica in Venice catalyzed the Venetian polychoral style.
+*Q:* [Finance/Health] Which master transcriptional coactivator drives mitochondrial biogenesis in response to an elevated AMP:ATP ratio, and in what year did John Kelly publish the Kelly Criterion?
+*A:* ✅ ANSWER: PGC-1α; 1956 — PGC-1α is the master regulator of mitochondrial biogenesis, and John L. Kelly Jr. published his information-theoretic bet-sizing paper at Bell Labs in 1956.
 
 🔹 *[BLOCK 2 • THE LOGIC CRUCIBLE (15 MINS — FLUID IQ PUZZLE & SOLUTION)]*
-*Q:* Deduce the 7th term in the sequence: 3  →  6  →  8  →  16  →  18  →  36  →  [ ? ] (Choices: 44, 32, 42, 38)
-*A:* ✅ ANSWER: 38 — Alternating operator recurrence: (×2), then (+2), repeating.
+*Q:* Deduce the 7th term in the sequence: 4  →  8  →  10  →  20  →  22  →  44  →  [ ? ] (Choices: 46, 44, 50, 48)
+*A:* ✅ ANSWER: 46 — Alternating operator recurrence: (×2), then (+2), repeating.
 
 🔹 *[BLOCK 3 • MENTAL MODEL RE-WIRING (15 MINS — CASE STUDY & SOLUTION)]*
-*Q:* [First Principles Decomposition] Applying First Principles Decomposition, what is the highest-leverage executive action for the consortium?
-*A:* ✅ ANSWER: Decompose the $152/kWh gap between the $28 commodity floor and $180 quote into specific manufacturing steps (electrode coating, dry-room curing, pack assembly) and redesign the highest-friction fabrication step. (Framework Principle: Instead of reasoning by analogy ('copying what others do with slight tweaks'), break a complex system down into its fundamental, undeniable physical or economic truths and reconstruct a solution from the ground up.)
+*Q:* [Second-Order Thinking ('And Then What?')] Using Second-Order Thinking, what is the predictable 24-month second-order consequence of a naive single-metric FLOP threshold?
+*A:* ✅ ANSWER: Targeted actors accelerate R&D into high-bandwidth interconnect clustering of just-below-threshold chips, algorithmic sparsity, and offshore cloud leasing—eroding the exporter's market revenue while catalyzing indigenous rival architectures. (Framework Principle: First-order thinking only evaluates the immediate, obvious result of an action. Second- and third-order thinking traces the feedback loops, behavioral adaptations of other actors, and delayed equilibrium shifts over 1, 5, and 10 years.)
 
 🔹 *[BLOCK 4 • THE INTEGRATION LOOP (15 MINS — SPACED REPETITION QUESTION & ANSWER)]*
 *Q:* Cross-Disciplinary Synthesis: Using a structural systems lens, how does the 16th-century Portuguese 'cartaz' naval node strategy parallel modern semiconductor supply-chain bottlenecks?
